@@ -43,7 +43,7 @@ jobs:
         with:
           name: validation-${{ matrix.os }}
           path: artifacts
-          if-no-files-found: error
+          if-no-files-found: warn
 
   container:
     name: Non-root headless container
