@@ -27,7 +27,7 @@ public static class JsonCodec
     public static string SerializeSave(TacticalState state)
     {
         var save = new SaveDocument { FormatVersion = CurrentSaveFormatVersion, State = ToDocument(state) };
-        return JsonSerializer.Serialize(save, Options) + Environment.NewLine;
+        return SerializeNormalized(save);
     }
 
     /// <summary>Loads current saves and migrates the legacy version-zero state-only format.</summary>
@@ -85,7 +85,7 @@ public static class JsonCodec
                 StateHash = step.StateHash,
             }).ToList(),
         };
-        return JsonSerializer.Serialize(file, Options) + Environment.NewLine;
+        return SerializeNormalized(file);
     }
 
     /// <summary>Deserializes a replay while applying strict enum and shape validation.</summary>
@@ -144,7 +144,7 @@ public static class JsonCodec
                 FinalHash = result.FinalHash,
             }).ToList(),
         };
-        return JsonSerializer.Serialize(document, Options) + Environment.NewLine;
+        return SerializeNormalized(document);
     }
 
     /// <summary>Creates RFC 4180-compatible CSV telemetry without locale-dependent numbers.</summary>
@@ -246,4 +246,7 @@ public static class JsonCodec
 
         return new TacticalState(map, units, (Team)document.ActiveTeam, document.TurnNumber);
     }
+
+    private static string SerializeNormalized<T>(T value) =>
+        JsonSerializer.Serialize(value, Options).ReplaceLineEndings("\n") + "\n";
 }

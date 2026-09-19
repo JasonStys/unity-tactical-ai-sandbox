@@ -85,7 +85,8 @@ if (reportPath is not null)
         Directory.CreateDirectory(directory);
     }
 
-    File.WriteAllText(reportPath, JsonSerializer.Serialize(report, new JsonSerializerOptions { WriteIndented = true }) + Environment.NewLine);
+    string reportJson = JsonSerializer.Serialize(report, new JsonSerializerOptions { WriteIndented = true }).ReplaceLineEndings("\n") + "\n";
+    File.WriteAllText(reportPath, reportJson);
 }
 
 Console.WriteLine($"RESULT total={tests.Length} passed={tests.Length - failures} failed={failures} durationMs={suiteTimer.ElapsedMilliseconds}");
