@@ -21,7 +21,18 @@ The full local gate is `node scripts/verify.mjs`. Machine-readable test output i
 
 ## Remote result
 
-GitHub Actions run links will be recorded here after the repository's first successful remote validation.
+Validated source commit: `88e67eb498712e20f74abf46778e4a32d59b472f`.
+
+| GitHub check | Result | Evidence |
+| --- | --- | --- |
+| Ubuntu complete gate | Pass | [CI run 35415178898](https://github.com/JasonStys/unity-tactical-ai-sandbox/actions/runs/35415178898) |
+| Windows complete gate | Pass | [CI run 35415178898](https://github.com/JasonStys/unity-tactical-ai-sandbox/actions/runs/35415178898) |
+| Non-root container build and demo | Pass | [CI run 35415178898](https://github.com/JasonStys/unity-tactical-ai-sandbox/actions/runs/35415178898) |
+| CodeQL C# analysis | Pass | [CodeQL run 35415178933](https://github.com/JasonStys/unity-tactical-ai-sandbox/actions/runs/35415178933) |
+| Dependabot GitHub Actions scan | Pass | [update run 35414752727](https://github.com/JasonStys/unity-tactical-ai-sandbox/actions/runs/35414752727) |
+| Dependabot Docker scan | Pass | [update run 35414752652](https://github.com/JasonStys/unity-tactical-ai-sandbox/actions/runs/35414752652) |
+
+Both operating systems rebuilt the solution, ran all 32 tests, regenerated the 500-match evidence byte-for-byte, validated the replay and authored scenario, and uploaded machine-readable artifacts. The container job built the image, confirmed a non-root runtime identity, and ran the deterministic demo.
 
 ## Interpretation
 
