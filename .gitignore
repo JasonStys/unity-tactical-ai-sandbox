@@ -1,0 +1,21 @@
+# .NET build output
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+
+# Unity-generated directories
+unity/Library/
+unity/Logs/
+unity/Temp/
+unity/UserSettings/
+unity/MemoryCaptures/
+
+# IDE and operating-system files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db

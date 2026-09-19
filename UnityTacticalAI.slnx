@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/TacticalAI.Core/TacticalAI.Core.csproj" />
+  <Project Path="src/TacticalAI.Serialization/TacticalAI.Serialization.csproj" />
+  <Project Path="src/TacticalAI.Headless/TacticalAI.Headless.csproj" />
+  <Project Path="src/TacticalAI.UnityBridge.Contract/TacticalAI.UnityBridge.Contract.csproj" />
+  <Project Path="tests/TacticalAI.Tests/TacticalAI.Tests.csproj" />
+</Solution>

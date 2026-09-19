@@ -1,0 +1,8 @@
+.git
+.github
+**/bin
+**/obj
+artifacts
+unity/Library
+unity/Temp
+unity/Logs

@@ -1,0 +1,14 @@
+{
+  "name": "unity-tactical-ai-sandbox-tooling",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free repository validation scripts for the tactical AI sandbox.",
+  "scripts": {
+    "code-index": "node scripts/generate-code-index.mjs",
+    "lint:repo": "node scripts/verify-repository.mjs",
+    "test": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

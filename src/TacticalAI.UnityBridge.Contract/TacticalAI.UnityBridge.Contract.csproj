@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>TacticalAI.UnityBridge.Contract</RootNamespace>
+    <DefineConstants>$(DefineConstants);UNITY_CONTRACT_TEST</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../TacticalAI.Core/TacticalAI.Core.csproj" />
+    <Compile Include="../../../unity/Assets/TacticalAI/Runtime/*.cs" Link="Unity/%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

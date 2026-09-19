@@ -1,0 +1,4016 @@
+{
+  "schemaVersion": "1.0",
+  "firstSeed": 1000,
+  "matches": 500,
+  "blueWins": 253,
+  "redWins": 238,
+  "draws": 9,
+  "averageTurns": 30.214,
+  "totalDamage": 176210,
+  "actionCounts": {
+    "Move": 8081,
+    "UseAbility": 6526
+  },
+  "results": [
+    {
+      "seed": 1000,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 334,
+      "finalHash": "1b2e374e5e953299513e8f2b83fe854923eb6110e76d991c5637dad426e47ed7"
+    },
+    {
+      "seed": 1001,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 361,
+      "finalHash": "88afb1fafc2fb4ae069a4364193b5c35b2ad59d60255833c5d7edf4b89f61282"
+    },
+    {
+      "seed": 1002,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 300,
+      "finalHash": "8c968b20a0909cc674093398319b23e6a1f6df4e4357516faa1cc47cb1077d23"
+    },
+    {
+      "seed": 1003,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 383,
+      "finalHash": "a01c113e0bba027a9bb01630128d59c6013df2593b9510a29b2122f4ebefa444"
+    },
+    {
+      "seed": 1004,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 388,
+      "finalHash": "e80a3e3c0783f2f8faa141cdccd473438eb10279ec53824d5630ceaba6c93152"
+    },
+    {
+      "seed": 1005,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 352,
+      "finalHash": "e38032a2dffdf185790f4a762eed6ae2e010517388d214746a05f1dca9ebdb7a"
+    },
+    {
+      "seed": 1006,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 378,
+      "finalHash": "d8b04c0840460791ec56232ec863b3bf5a40b9e0e7bb67412987f6cb77b3decb"
+    },
+    {
+      "seed": 1007,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 329,
+      "finalHash": "6fa9a5eedc1ff94e55546fe14b6c3291d28fa19e750fc001b318234accf5521f"
+    },
+    {
+      "seed": 1008,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 317,
+      "finalHash": "27349f668ccdf9f290f275f5aec1a8d1c2f57d67b893fc8edb858380a148b6e7"
+    },
+    {
+      "seed": 1009,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 375,
+      "finalHash": "15f297c651eeafbcadc5c62ae0183ac949e7ec13d6cdeae5413d3c39a9dd2d4e"
+    },
+    {
+      "seed": 1010,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 386,
+      "finalHash": "afaed01c24fbfa4794f8c13d3c9f31b0627cf9d0009fb5373087c6a2baebb259"
+    },
+    {
+      "seed": 1011,
+      "winner": "Blue",
+      "turns": 34,
+      "commands": 33,
+      "damage": 363,
+      "finalHash": "37168e192727ed4e9d2be55e46097e908cf28c64ca9569b8af9cf96275169896"
+    },
+    {
+      "seed": 1012,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 379,
+      "finalHash": "46fae0c737e2f749a963c77032ff7f610c946d719b9fb3e14706b011b27bdd84"
+    },
+    {
+      "seed": 1013,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 327,
+      "finalHash": "c6dc560dd31543f64c2218717fd1fe7a098bb10fbfa191da937316808934495d"
+    },
+    {
+      "seed": 1014,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 360,
+      "finalHash": "e0146e05b9da5e2c58ba084eb41c185d4cfdb1ba9646cb5f7dcab30805946410"
+    },
+    {
+      "seed": 1015,
+      "winner": "Red",
+      "turns": 37,
+      "commands": 36,
+      "damage": 377,
+      "finalHash": "ad01c4bc137503759a64647584ded31cc7e7144d5144220c03db62099f1b1c22"
+    },
+    {
+      "seed": 1016,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 386,
+      "finalHash": "be95a22f4aed01734b0b83385cde9f5d75cf3891c4a322f52a89dbbf73c19c77"
+    },
+    {
+      "seed": 1017,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 392,
+      "finalHash": "acc0e3e1edd7f2388e6267814b6de4e6fbc9da0cfa3215e49723a13b41bd0f4a"
+    },
+    {
+      "seed": 1018,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 389,
+      "finalHash": "3c6be59485adf3235e0c4ce79da4c9f9de6cb4ee81a27491c848c741a79bec75"
+    },
+    {
+      "seed": 1019,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 370,
+      "finalHash": "db6de1cc3d4c341045f647077b3397519464593101280158839e9ba253c5efa3"
+    },
+    {
+      "seed": 1020,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 334,
+      "finalHash": "2ea1c176f7038ed49d6876d102e885584a321a467261f6419363579fc3fd6d82"
+    },
+    {
+      "seed": 1021,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 322,
+      "finalHash": "bd3facfc4b93b7760e6bd974a1cdc7670cc680f65a625bfad08b878163aca5b1"
+    },
+    {
+      "seed": 1022,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 328,
+      "finalHash": "05537697a1b385c237d7dfb257af90e7632235b86e72c4c404e647589498b9bc"
+    },
+    {
+      "seed": 1023,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 393,
+      "finalHash": "21c310ef49a30c79c8491b2712213babd1bebff2dc6d35719d8561b7dc4c84b3"
+    },
+    {
+      "seed": 1024,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 350,
+      "finalHash": "533e4dc3b822dd986e3208bee020bb557fb70b1890fcf58e693c061bfe7cef37"
+    },
+    {
+      "seed": 1025,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 384,
+      "finalHash": "003279326d915255807274420878443d7a60d1b4a2aaef401a8b903c142c18e0"
+    },
+    {
+      "seed": 1026,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 353,
+      "finalHash": "f8f82ab2619450333afb3ee549bce5a3402d3d3aad2ab69b36ff17c550cdcb85"
+    },
+    {
+      "seed": 1027,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 354,
+      "finalHash": "1b3578e0afb4d9b688ede950f9e0bcbc7c7e61ee77ba0d331d13b069607eebf9"
+    },
+    {
+      "seed": 1028,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 334,
+      "finalHash": "6a645edbbbf63b210c81ce50573d7929b68788b57593a1a5e9fbed2c6a66d86a"
+    },
+    {
+      "seed": 1029,
+      "winner": "Blue",
+      "turns": 38,
+      "commands": 37,
+      "damage": 394,
+      "finalHash": "814679644f3f31468334cfbcadb18f8920807e8fcc362b8fd054871d4af9ae03"
+    },
+    {
+      "seed": 1030,
+      "winner": "Draw",
+      "turns": 201,
+      "commands": 200,
+      "damage": 200,
+      "finalHash": "53211abaa0a3dd7fd0981b49549fae03c0f59a3a04b5b7b04aa057bd22aaa2c6"
+    },
+    {
+      "seed": 1031,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 369,
+      "finalHash": "1e629161cbccc059b7814fb5763d2e4b66fb3176106ca588c083b640c3ca627a"
+    },
+    {
+      "seed": 1032,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 398,
+      "finalHash": "3e31e959c3db5969f1b6be98543a002d6e62c91329a872cbeabdc5257d33aebb"
+    },
+    {
+      "seed": 1033,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 386,
+      "finalHash": "24f50e15331288d5451e5ae653d973e5647ac4bc60fde4c282cb4312c3ba79a7"
+    },
+    {
+      "seed": 1034,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 300,
+      "finalHash": "cb570862c214cdfeb662aaf1f6cf225c7bec54e46ed408a4cbbaa1a4475e2017"
+    },
+    {
+      "seed": 1035,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 386,
+      "finalHash": "ae81dd109abd5acb76368baf67bf6fc113ea29884afb525810e2c97a1b12b066"
+    },
+    {
+      "seed": 1036,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 386,
+      "finalHash": "ab3c1be8d3942b195aba470580eef050e616130f814c64e2ff81b733880220aa"
+    },
+    {
+      "seed": 1037,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 378,
+      "finalHash": "5854acb7fbe818c023c0b74a7433555c1c020d5c4f1b82d2767928b3c6211f6b"
+    },
+    {
+      "seed": 1038,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 386,
+      "finalHash": "3905ec1bdb18ee95351b5bf592c96cc1b4d53ddf88a347ff7a074e67652143f9"
+    },
+    {
+      "seed": 1039,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 360,
+      "finalHash": "db8712795b9fb588f74d452a71459eb9b575bf66cff40c20ee7d8c8e7f60268f"
+    },
+    {
+      "seed": 1040,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 358,
+      "finalHash": "1273ec9a2082558bc71a16ca54c2f866f0ca10c22a8a979a09777b3edd146df6"
+    },
+    {
+      "seed": 1041,
+      "winner": "Blue",
+      "turns": 36,
+      "commands": 35,
+      "damage": 368,
+      "finalHash": "747ce9a195385d74a8e9c028078961f7b7735c54b148ee275940ff71b7239a8b"
+    },
+    {
+      "seed": 1042,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 351,
+      "finalHash": "fc21c10b0a106f21a287f18c1c6aa6b5f48f240f3fdde9bc326d0dc3c80305a1"
+    },
+    {
+      "seed": 1043,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 300,
+      "finalHash": "687f6003fa62f7dd7ccbb1273490b8a9e75cf32f6d929c4e8b7a04b2d5c53997"
+    },
+    {
+      "seed": 1044,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 300,
+      "finalHash": "0d96d7de589cac245a8aeed388a1b8cbb91304f82fbd42db188fe1624fff81e8"
+    },
+    {
+      "seed": 1045,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 374,
+      "finalHash": "e7a7b3ae3872f96ad0b08b2521c9e4f0185253dd3a10df319851382d2fa7e7d1"
+    },
+    {
+      "seed": 1046,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 334,
+      "finalHash": "931213ebb26d0d1f644361599d3319d01d962306a594add14a725ffba41127ae"
+    },
+    {
+      "seed": 1047,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 350,
+      "finalHash": "b837c9f4d77e7bec1dcafa4b579c817f661b59bb19dd42578d8e2d9a8af798f8"
+    },
+    {
+      "seed": 1048,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 386,
+      "finalHash": "0f5bdbd879744af56c1e8f26194e881e09370434777dc525709d74826eef2dd6"
+    },
+    {
+      "seed": 1049,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 371,
+      "finalHash": "28826b82688fe74e11f71f97cf5f0cd7294b7a989171401935de3364086ee230"
+    },
+    {
+      "seed": 1050,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 381,
+      "finalHash": "5ee883c4b8437a7637cae5b2f7988c3d7fbd3333586d0b8400af7543dd7e3fc4"
+    },
+    {
+      "seed": 1051,
+      "winner": "Red",
+      "turns": 35,
+      "commands": 34,
+      "damage": 371,
+      "finalHash": "3c3be35dda94c3104f80ed930b45650581883215b42b10ec4506ae49f86d2cbc"
+    },
+    {
+      "seed": 1052,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 334,
+      "finalHash": "732699659745c20cb45f00afea2c6b537659b87045e8ae43f4215239b3bff545"
+    },
+    {
+      "seed": 1053,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 386,
+      "finalHash": "5dcf1b8136ab36237316435af2d0e9d5fbc562c5b4d9854a5781bbcf9af64f33"
+    },
+    {
+      "seed": 1054,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 334,
+      "finalHash": "0c6cb71d935e175386899f714900d800cc499fb8a5c2d0e70d9d16248285e1b2"
+    },
+    {
+      "seed": 1055,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 372,
+      "finalHash": "2a812fe2c04c6ec3f9e4b2bfc451ad6c838d90e8d1f4db0a1486d6d6af1d65de"
+    },
+    {
+      "seed": 1056,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 385,
+      "finalHash": "1fcb70689da58e5039dda5effa36655747c0ad752a295b70106b39b3356f3be8"
+    },
+    {
+      "seed": 1057,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 362,
+      "finalHash": "b73b420e677c92f4eeaa08003cf40717f40070931dcfbbc8f454e63b1b383229"
+    },
+    {
+      "seed": 1058,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 368,
+      "finalHash": "0e9804d12b4e4291e070ef945eaf479c12813253682f71f245780995736aa8f8"
+    },
+    {
+      "seed": 1059,
+      "winner": "Blue",
+      "turns": 20,
+      "commands": 19,
+      "damage": 300,
+      "finalHash": "f90f4a8feebf656c4b8d586b0dfd7013408efed78d91f940fdb997f02fc262e6"
+    },
+    {
+      "seed": 1060,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 343,
+      "finalHash": "b2f40902ab4d27441d7e290820383db7044ff69bd309dc8215f939b238fbdf23"
+    },
+    {
+      "seed": 1061,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 370,
+      "finalHash": "4b1fc8d6e5957289a127fed252fcb505cead52781af74d6288a2ff5251a99223"
+    },
+    {
+      "seed": 1062,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 389,
+      "finalHash": "05b991b165882abdd788e0be5567bfda6e8a9c696e0691dcdc88092f38446249"
+    },
+    {
+      "seed": 1063,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 372,
+      "finalHash": "13f8758a75b0ddf7e4853c98d8e58b444116a2f6c407dac64fd81d279e573a38"
+    },
+    {
+      "seed": 1064,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 386,
+      "finalHash": "18c37b9fca3ddc4c064c9b74523777cff08feeb5cc09ad47e4b280e221d61797"
+    },
+    {
+      "seed": 1065,
+      "winner": "Blue",
+      "turns": 34,
+      "commands": 33,
+      "damage": 388,
+      "finalHash": "8a770d35208fb0408f7ded8e19c940557392d51b2f7e608d75a05fa7d9cf2a19"
+    },
+    {
+      "seed": 1066,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 358,
+      "finalHash": "1cde4961aacfec8182ce8171e868fd9e43c373d96bf00bd4fb223dbbea8caccb"
+    },
+    {
+      "seed": 1067,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 324,
+      "finalHash": "9096ffe567a53e8b1a1fba2a62df578d17b925dbdb688320949da8074bea74d8"
+    },
+    {
+      "seed": 1068,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 382,
+      "finalHash": "b171bc3589959f00685594cb2ae89e3b9dc36045b86592ddad0aaee058bc41ba"
+    },
+    {
+      "seed": 1069,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 386,
+      "finalHash": "f72e2c4b0a2221690c180c9bc7d2bf084b94e16d5d77a8ff24a950c0889645be"
+    },
+    {
+      "seed": 1070,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 322,
+      "finalHash": "30dceec432cb07f852ca060360e3505951510f554821d32b77ae1bf836e28673"
+    },
+    {
+      "seed": 1071,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 377,
+      "finalHash": "5ec29155b0e65e3ac9fcf340576eecb1658659786fc2ed0eaf3d01b55bc6eefd"
+    },
+    {
+      "seed": 1072,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 354,
+      "finalHash": "6b28fefcd23c370a21a46750edd36a59b726fb8a65ed8af8788a63ea301755b1"
+    },
+    {
+      "seed": 1073,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 399,
+      "finalHash": "51b88ea056ec5b7695c4337849e8c755ccdafa34e6e168565f09dd5f113a169c"
+    },
+    {
+      "seed": 1074,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 366,
+      "finalHash": "bc8738886b81df8e6e2645c55384185aa5e8b92aca91f9473eaf3780d9e4f44d"
+    },
+    {
+      "seed": 1075,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 354,
+      "finalHash": "4891d3bbbf9d9b63da1f6f307aaccc34fe8440e7e1413f304c75422b1035a776"
+    },
+    {
+      "seed": 1076,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 320,
+      "finalHash": "aeb2de9a5221146df74e62701fdb05575ba6eeda87bedbeec06345e53e49f81f"
+    },
+    {
+      "seed": 1077,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 317,
+      "finalHash": "86495961f49703b1f753ae1cf89f50763d475f4c46e13497915434dc7882d893"
+    },
+    {
+      "seed": 1078,
+      "winner": "Red",
+      "turns": 35,
+      "commands": 34,
+      "damage": 363,
+      "finalHash": "2aabc88d0edda7b588e51a1034c3d47bd02e9bd47c9e04773737b8cddcdd1a91"
+    },
+    {
+      "seed": 1079,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 377,
+      "finalHash": "9ccb8ec08e0c3567d3d2604d7074cd48837a5cea72fa733f17fc88bcc455090f"
+    },
+    {
+      "seed": 1080,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 334,
+      "finalHash": "5afb605b7db796c5302d26dfc38cbbb4cfe60e8d8bd291b09d4974e75d0bf0ac"
+    },
+    {
+      "seed": 1081,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 392,
+      "finalHash": "a7a0ae8738defc61b6cc71e66014398490910d04c49c8badce04bbbe2f37b973"
+    },
+    {
+      "seed": 1082,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 356,
+      "finalHash": "9b326038c3a4dcc98058165116f71ce0b3b40cbd50da799f6bcfea3a3590594e"
+    },
+    {
+      "seed": 1083,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 300,
+      "finalHash": "8e57fc09f05191f5ac50ca7ab07e6fb27755f579b44e51a9f9648fa9373ebb3e"
+    },
+    {
+      "seed": 1084,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 382,
+      "finalHash": "edc106d7edde24cad90827d288b83b9640d9a322869316e6242ae6ee1eb1ca57"
+    },
+    {
+      "seed": 1085,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 360,
+      "finalHash": "c969049dcd485cb7187389b7a00fe1cbb7f931ef15358708e17477b99e26f33a"
+    },
+    {
+      "seed": 1086,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 386,
+      "finalHash": "dee1bdb191ed0b2457d3cff5ba0c07ede16bbde79e79f6ef31461e76a9fa5b15"
+    },
+    {
+      "seed": 1087,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 370,
+      "finalHash": "50c0b762d9932c1af00075d51530e828e6595cc9a1b07889c294c9610548b108"
+    },
+    {
+      "seed": 1088,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 346,
+      "finalHash": "2cef3995cf7e6f525e8df8c5cf90b9be87d86e276cc976e803b53d124b513905"
+    },
+    {
+      "seed": 1089,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 300,
+      "finalHash": "b544b766423e3bc5c147f3ebbd42224f879b6cd6e679dbaa57f62279a5af5c7c"
+    },
+    {
+      "seed": 1090,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 393,
+      "finalHash": "c8c7a6f83cc90e9a9133990ff651da90dca9aac0ad76ec0a3077c469c439da2e"
+    },
+    {
+      "seed": 1091,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 300,
+      "finalHash": "f509ac962544667d0bed0170dad1d7cd2348c38c0c1b29f925405a2db92d29b2"
+    },
+    {
+      "seed": 1092,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 364,
+      "finalHash": "b586e04c714663a406fc7292fe9e440105f86137d9cd16bb9eba6b057564e680"
+    },
+    {
+      "seed": 1093,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 357,
+      "finalHash": "815ca8b16303582fca1538b30f14f0dbfc071ad8b622b3c1c6d9c3b6c0006f3f"
+    },
+    {
+      "seed": 1094,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 382,
+      "finalHash": "c55d8af26add4866cf852409be415cab48523e49ae3556f9588b9e18eae3536d"
+    },
+    {
+      "seed": 1095,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 386,
+      "finalHash": "5c15a444b02c1bc43644336026b319a2b49ec91fe9d6bb6894a8b12d8ecb651b"
+    },
+    {
+      "seed": 1096,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 381,
+      "finalHash": "bca50afbb140f152d2f29e6f967a7c93530aa27018b26f0afb93f23db8715519"
+    },
+    {
+      "seed": 1097,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 390,
+      "finalHash": "a06c8a43fea530e4a00cc97a03cbeb61dae28af0a89b8f4cf1c1aa963d639ed4"
+    },
+    {
+      "seed": 1098,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 369,
+      "finalHash": "1eb26382fe0f077f4fb07b113c7594186217ab62be51c1cbf75744c90834b687"
+    },
+    {
+      "seed": 1099,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 348,
+      "finalHash": "090c6c1c6bb345c2f71a077c1babc54b1a11dd80ab3523d6446bfd54a5f72ae5"
+    },
+    {
+      "seed": 1100,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 377,
+      "finalHash": "91e9c3daa620bee964501965907e8e14ffaebdb4df28d550f01e84e6b500e5d3"
+    },
+    {
+      "seed": 1101,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 334,
+      "finalHash": "5977f9d3c883d04ca23288afa405e42827eae71bece481d3e2f88dc4bf0a6d25"
+    },
+    {
+      "seed": 1102,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 352,
+      "finalHash": "d683b1fbe579881df872336e062113839a4e2132b1ad07479e16ca5c293b82f2"
+    },
+    {
+      "seed": 1103,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 349,
+      "finalHash": "4edc4e412b88e81185e5cf8c16cce08a052dc57227acebd81cbdf66f4e33740e"
+    },
+    {
+      "seed": 1104,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 386,
+      "finalHash": "2c95f6539e965ceeefcc7dc48c7496145e0a33b95ad07cf244b2d5653f169ffa"
+    },
+    {
+      "seed": 1105,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 386,
+      "finalHash": "6b64c995e3d961150de0b53bb8dcfc8e4797a1aa51e65ff41ff5a5793e1fb2b6"
+    },
+    {
+      "seed": 1106,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 334,
+      "finalHash": "124275092075b91ecd53b785b2ff5c0073852c5655044008d40b40b28dd7a374"
+    },
+    {
+      "seed": 1107,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 339,
+      "finalHash": "92bc9b37e62051955f527c8cf13466aad7650fe1521e263e693c240fb9419abd"
+    },
+    {
+      "seed": 1108,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 398,
+      "finalHash": "a89edf30b4cb8392bd27fc643be51c16cf14c561d6e20388fda6d2970d04807e"
+    },
+    {
+      "seed": 1109,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 334,
+      "finalHash": "2f5a3b2d5adc5b2d5bbac90cf40931227a184b85923455619566c619324a3324"
+    },
+    {
+      "seed": 1110,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 391,
+      "finalHash": "0dd1089d1a371a214862e0f5c7afc1b5d493986f20776399cb6856aae3df7f9d"
+    },
+    {
+      "seed": 1111,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 385,
+      "finalHash": "dcdf0ad8308942560ffd23cbc27c9641eac0a8834f5ff477681ae1ea9d144933"
+    },
+    {
+      "seed": 1112,
+      "winner": "Red",
+      "turns": 35,
+      "commands": 34,
+      "damage": 377,
+      "finalHash": "369039cc2ef560f9e3e489ed4cf67612329b42886e1a4ad15f4657d057aebee8"
+    },
+    {
+      "seed": 1113,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 327,
+      "finalHash": "636d5eb22b497f22e0d481e06bfb1de98fb862e8bd8c9c1d3fa7dc883141aff2"
+    },
+    {
+      "seed": 1114,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 362,
+      "finalHash": "264511b7015780f94617c528a555689ad6187c3c50545a01cd76897f8afe6aef"
+    },
+    {
+      "seed": 1115,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 397,
+      "finalHash": "e677630c5a08745362607c4b39bfd9d845a8b20009f8fa056d99934b1f37af52"
+    },
+    {
+      "seed": 1116,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 371,
+      "finalHash": "6db6ee2c3225ae97734f0b9cbb110bc940a229bb9e53230f19b0403f0055b09e"
+    },
+    {
+      "seed": 1117,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 355,
+      "finalHash": "83b5df8e85e6566d6b217fb0a90f909db52d21eb9ba635202dc4a7c6974bffc9"
+    },
+    {
+      "seed": 1118,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 366,
+      "finalHash": "228c3f85c679e909b178232ad86cac90bf107578b95d6acbbd6434ac584ffc28"
+    },
+    {
+      "seed": 1119,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 389,
+      "finalHash": "a88f04cba1af05f67d20657b468ca32c98aa7d47c38575f85ff5dfd90671f298"
+    },
+    {
+      "seed": 1120,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 368,
+      "finalHash": "2e313c57b505548526a330abe69b57dfbf9543a94f5fb4fe9cfdb072badfefbe"
+    },
+    {
+      "seed": 1121,
+      "winner": "Blue",
+      "turns": 34,
+      "commands": 33,
+      "damage": 388,
+      "finalHash": "ebdbf603ba9d1663f98e2107bed3cbe0c7ab15a173bf7df08af5b60e4455eff3"
+    },
+    {
+      "seed": 1122,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 386,
+      "finalHash": "2041c0fc03d69c41f8cba358d36b377701db75c32a1470d10b6cfb68995dc925"
+    },
+    {
+      "seed": 1123,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 301,
+      "finalHash": "9367d97fc102e1b4974d3a3734e6e4e2d974724ab925dfb34a42c79b7d43df5b"
+    },
+    {
+      "seed": 1124,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 352,
+      "finalHash": "0fa5c5acfc7a9dde45bfda0fbf0d4dc575ebd1c89128407b0ee0f2cd9e2e6bdd"
+    },
+    {
+      "seed": 1125,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 367,
+      "finalHash": "63311f253af18319465dabd3ca3e11e709f5aca18c54ffd251febe00bfcdfde3"
+    },
+    {
+      "seed": 1126,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 384,
+      "finalHash": "d7ffd769a09eec8fc11ec479c6d99371238f4a27029d299b20b83b1b7270f085"
+    },
+    {
+      "seed": 1127,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 352,
+      "finalHash": "a42db68fe21185464998f0c5d81fd09d886d3dd51279eb26820e6ff9a932529e"
+    },
+    {
+      "seed": 1128,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 321,
+      "finalHash": "d6b5072bd8dbf16c93fc25ae1b522f905d14474a7f5befd4b6e5803e495abc51"
+    },
+    {
+      "seed": 1129,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 391,
+      "finalHash": "b94b613b803144400067cbeef309e59f70d040324ba5f499537098ec5a879a03"
+    },
+    {
+      "seed": 1130,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 367,
+      "finalHash": "421da9b3b450d1d29ac025d7f88da222be18dabd788289a3f4aa3ec5b79b30eb"
+    },
+    {
+      "seed": 1131,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 387,
+      "finalHash": "79cd21caea8f2a2564d86d2f729ec68e8310e48d581b15d44c0499f2893570e2"
+    },
+    {
+      "seed": 1132,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 378,
+      "finalHash": "bcc1c664d92d229efe2cbe0c3569d525b0a0dd80809dcbcdc933a7f19a65745a"
+    },
+    {
+      "seed": 1133,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 334,
+      "finalHash": "2870eed1bb98751cea5f63c86873a80889059356aeadc46e427b285ebd7f52da"
+    },
+    {
+      "seed": 1134,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 334,
+      "finalHash": "3eb337f62595a988cf267f76da8707b20cdf181711b5be5a914a2c90b94e5025"
+    },
+    {
+      "seed": 1135,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 390,
+      "finalHash": "1af4d837a04c3e4b4f5c4e986678fe9c9e86c77b6e06845e76b370baba45e77a"
+    },
+    {
+      "seed": 1136,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 300,
+      "finalHash": "6c218e077982bd4904a8f53939ef55ea224d567500120b637bcc20ccf0dd94f7"
+    },
+    {
+      "seed": 1137,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 351,
+      "finalHash": "ddc206078ee6ab369552a58ef6f20fd1999fb94f8e069ce7e62b4a47a1c7d260"
+    },
+    {
+      "seed": 1138,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 394,
+      "finalHash": "00f5cf06fb1e212eb366a396fd5208899d7bb1a9a3b7d0303735506018765a13"
+    },
+    {
+      "seed": 1139,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 356,
+      "finalHash": "74529ec6f084f32cd694989ba4be69163cdd47b5c6eccf28e1e5cabeaf5e9e74"
+    },
+    {
+      "seed": 1140,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 375,
+      "finalHash": "759f1707af997943be043d1553af92d082d661b8291649b12cea0e8e218f9470"
+    },
+    {
+      "seed": 1141,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 337,
+      "finalHash": "5455d63b8f315c7164585e9dcffbd93ea147727491a93a68e63df00ab5c23819"
+    },
+    {
+      "seed": 1142,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 321,
+      "finalHash": "a2a4494ad3f12caef9265730bbfa58e3d0ef06394c618d5c8dada57cfe3c3625"
+    },
+    {
+      "seed": 1143,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 390,
+      "finalHash": "2a32bffadb9315a32596ec0ef9d0f3e65e48bef1de28dca3293a0b856044c0f9"
+    },
+    {
+      "seed": 1144,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 345,
+      "finalHash": "094543f8ecb53dc4a99f2adf067bd1d6efbbb63f69edf36cdbde141603132c62"
+    },
+    {
+      "seed": 1145,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 366,
+      "finalHash": "5b493f2327bd6523bc11d4b20301d13528403e9afbfbad3716d538e0565a588d"
+    },
+    {
+      "seed": 1146,
+      "winner": "Red",
+      "turns": 37,
+      "commands": 36,
+      "damage": 389,
+      "finalHash": "ba37212d8b0ac0d694047fba1fb85cf4871d913db4ef37019bab14dd5e251af5"
+    },
+    {
+      "seed": 1147,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 345,
+      "finalHash": "8e20adfd13b7b1480801dc9aa9cfd5b6d02feea97cb26de751a553c71364e4c7"
+    },
+    {
+      "seed": 1148,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 370,
+      "finalHash": "406116c8fd99883cffc89e069c399331c477dfe702d7a75a0c6ae70a3ac0bf39"
+    },
+    {
+      "seed": 1149,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 346,
+      "finalHash": "11f3e8b68305882eb75038f7c067f00eb7d55ce06b43520535c8bba564f4187a"
+    },
+    {
+      "seed": 1150,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 371,
+      "finalHash": "424e87b575fc4e93e4ad1b4e163bd39f5418b813bb0247156e1567ec4fc761b2"
+    },
+    {
+      "seed": 1151,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 386,
+      "finalHash": "629c52d2b564b71f3dafd741748b1d00bc08d99ddb57f306784ee2f8181b8f66"
+    },
+    {
+      "seed": 1152,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 386,
+      "finalHash": "e621ded91291360eb247e4ecaed3dfc2674738743b44eca24fd666a2ca96e89b"
+    },
+    {
+      "seed": 1153,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 342,
+      "finalHash": "fc9749790550f171bb6c7c582463405aa763dcbe6181b1d5a2dcd010a09cf44f"
+    },
+    {
+      "seed": 1154,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 334,
+      "finalHash": "30d49979069db99c557060c3974da3b0f7c25224dc9a30b1f89f3c243cd3c933"
+    },
+    {
+      "seed": 1155,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 393,
+      "finalHash": "79e8c2279253a01bf7258be4a619561d49140222abca628ba7f9e6a7f26743dd"
+    },
+    {
+      "seed": 1156,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 370,
+      "finalHash": "2aa08891560f84cb8a64393005621042675e99f89fc7e4d2687fc3a4d54a041e"
+    },
+    {
+      "seed": 1157,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 379,
+      "finalHash": "25345ca7efefb77bde02f00b8e97e7f8c9a12345cc990426da647143f78d82ca"
+    },
+    {
+      "seed": 1158,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 349,
+      "finalHash": "d74a4fa46f66f13d947baec72ded10251469cc7c601ae0f02b0fc511350186e7"
+    },
+    {
+      "seed": 1159,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 321,
+      "finalHash": "f6310e01e826ebe19d28391b888b1d847848a6ff56711ef31244860ef40c7739"
+    },
+    {
+      "seed": 1160,
+      "winner": "Draw",
+      "turns": 201,
+      "commands": 200,
+      "damage": 0,
+      "finalHash": "9d1c4c40db44656049042fd17326375e7f07bd2cb9252c5a0199c884ea4da5fb"
+    },
+    {
+      "seed": 1161,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 364,
+      "finalHash": "d95614bd3888f2882d748d5681b943ed04c425d378c2466ba32a63d6f1135e5d"
+    },
+    {
+      "seed": 1162,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 386,
+      "finalHash": "eff3da61b681aaf923d85cf368f499fd259dea201fc1d2152c1ba3a006bc7394"
+    },
+    {
+      "seed": 1163,
+      "winner": "Blue",
+      "turns": 48,
+      "commands": 47,
+      "damage": 396,
+      "finalHash": "f9595f6b073e1150c34772aff2966d1344e558ffb3227c769e51b7a71bc91b7c"
+    },
+    {
+      "seed": 1164,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 296,
+      "finalHash": "f1d8f5b8eaac574121ed77c396857f4cdb3ee5450c0e087ab85c19ef42ade598"
+    },
+    {
+      "seed": 1165,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 356,
+      "finalHash": "7011b37c55bcb95ee5cde0ef548c6bd514eaea4726e32cdb7e580ea4e5b0e3fe"
+    },
+    {
+      "seed": 1166,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 383,
+      "finalHash": "2bf303fe170c619b40436123078255a6ca4d118694470f049d4a9a5c90c96c8e"
+    },
+    {
+      "seed": 1167,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 334,
+      "finalHash": "72ffba3631c443001e09d5af70a8f5890be4e352a56b3164a6814a00222e087b"
+    },
+    {
+      "seed": 1168,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 346,
+      "finalHash": "3ebebbff2232843d4153bc7649661075b9d34ad8e8e4e770176f6b417de647a4"
+    },
+    {
+      "seed": 1169,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 293,
+      "finalHash": "16aa71e61185b853ce1c4ceec6fcf20d0b2072d48b9c900413ea7ad80e972cb7"
+    },
+    {
+      "seed": 1170,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 371,
+      "finalHash": "0b6ceb5365ab8aef8e5b93b773aa62150183bd08679f0c8add9697b4ebe5208f"
+    },
+    {
+      "seed": 1171,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 353,
+      "finalHash": "4658736e79509311891c5cfa1ffd411b3010138ebd133346906611ffe76f9dbf"
+    },
+    {
+      "seed": 1172,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 334,
+      "finalHash": "229406dedab28a65262216f439b6445819e9e472f78c823572297fcd5680d2a3"
+    },
+    {
+      "seed": 1173,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 386,
+      "finalHash": "b27bb7bb9393ee0317bd2c22ed78cae21d1a632fb9bad97a51b848770b51b4ef"
+    },
+    {
+      "seed": 1174,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 300,
+      "finalHash": "6476610354fb86503d4ff42b72a9a7983fe25eae44adad2ec87b31d457018282"
+    },
+    {
+      "seed": 1175,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 300,
+      "finalHash": "1bbefb99cd7eb0c5feb47aab8aee62425d0fa3c0ebc930c7c34b8086cd03d7e4"
+    },
+    {
+      "seed": 1176,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 369,
+      "finalHash": "50d8558783416369a7ec823f29a14e5edbbe9d0ee32a43c98345b7f980ec661e"
+    },
+    {
+      "seed": 1177,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 364,
+      "finalHash": "b620ffab814b58262925acc530659369024602f1f701c9d97d4d47958e13defb"
+    },
+    {
+      "seed": 1178,
+      "winner": "Draw",
+      "turns": 201,
+      "commands": 200,
+      "damage": 158,
+      "finalHash": "92415427e17675758cbab0f09b1223e118f463360deea2343f2407f429e88d99"
+    },
+    {
+      "seed": 1179,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 378,
+      "finalHash": "aff6592d5d1130f2cdd33aca1e078dc504f8e134bf02475a254d46f3ebc881e7"
+    },
+    {
+      "seed": 1180,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 374,
+      "finalHash": "793685a946fd8db82c22f8154d00f66e0180fd9b634ae68352bca8ddf7fdcd43"
+    },
+    {
+      "seed": 1181,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 392,
+      "finalHash": "1368ccb7aa33dd31645ba389791837141a16b12ebc8dba24e82a2359e21b4490"
+    },
+    {
+      "seed": 1182,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 386,
+      "finalHash": "dd70861235c6529841ac7e7c7a8dde3b7f39c3551b5af10a9cda581f698c9b25"
+    },
+    {
+      "seed": 1183,
+      "winner": "Blue",
+      "turns": 42,
+      "commands": 41,
+      "damage": 352,
+      "finalHash": "4d5bbd6f3996f116efdf4d51e19a30e430e8afbfe705bf074f724469a3502a41"
+    },
+    {
+      "seed": 1184,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 354,
+      "finalHash": "ef54197d57edc5bd9ab99570a5511842934796e896301fc99dadf8c22fdf5933"
+    },
+    {
+      "seed": 1185,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 386,
+      "finalHash": "427c6366e95468d46c8f84151c7b82f8138cf834847283c987eeebb460930d73"
+    },
+    {
+      "seed": 1186,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 386,
+      "finalHash": "8940bf7c31482ebecd8db5b58603d5f5b50e939ee22fb7410c0f43ededbbf3e4"
+    },
+    {
+      "seed": 1187,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 362,
+      "finalHash": "f72ccdf70c932fb3d7a186b3ff33d3def31801775652d1a26e8d28ce5cddea80"
+    },
+    {
+      "seed": 1188,
+      "winner": "Blue",
+      "turns": 18,
+      "commands": 17,
+      "damage": 296,
+      "finalHash": "f35527ee324981e9f7f79a4d0f3b6bf5dbf86858750819babfd26c364b0a5adb"
+    },
+    {
+      "seed": 1189,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 351,
+      "finalHash": "11f6de6fb53052df0b3eebb3eb8fd8a4c8fbd950f8b370e340f4194d2907828a"
+    },
+    {
+      "seed": 1190,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 351,
+      "finalHash": "1715efac188ae26c96ad88b3152c6e29a7527663759d49c6b4f2376b70b296a6"
+    },
+    {
+      "seed": 1191,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 332,
+      "finalHash": "965c8e28bd135e5cc62a0fe2934a57011fbd78085877d75587fac6ae15f37a76"
+    },
+    {
+      "seed": 1192,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 341,
+      "finalHash": "80c8b0d3fe8b7f5dd92125d0c8b9373728261d45b13177f21d78d30dfe9a0b88"
+    },
+    {
+      "seed": 1193,
+      "winner": "Red",
+      "turns": 45,
+      "commands": 44,
+      "damage": 334,
+      "finalHash": "bafb377195ef9b22c36fb7600a2163f664652c5b1b42a759b968a7b4be4fe98f"
+    },
+    {
+      "seed": 1194,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 386,
+      "finalHash": "4242d7cc3445a69a4550f597c498099867ac7f5770845f9878162ae2f87249cb"
+    },
+    {
+      "seed": 1195,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 377,
+      "finalHash": "044c626ea6ea8fc2ebef30ca53125abd5de0f01ff715a70c04c5c61338811596"
+    },
+    {
+      "seed": 1196,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 378,
+      "finalHash": "b436be0d50e2e63fa3027a9f06ca4b0d6db7d2e2152b434d8acecf328cd489b6"
+    },
+    {
+      "seed": 1197,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 366,
+      "finalHash": "6bfae21fe3019890c1cc9a5a1a33d8b88ad949cf203cb38fa54968baf0a18c7d"
+    },
+    {
+      "seed": 1198,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 392,
+      "finalHash": "a51efd0f09eb8a3562a9f657ba20adce8fd16e477ac22798ded0e247377851a9"
+    },
+    {
+      "seed": 1199,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 373,
+      "finalHash": "58a6d14227037cccd42855dfab75268d8f2897767e0fb0cd9b6a5c1b190003ea"
+    },
+    {
+      "seed": 1200,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 392,
+      "finalHash": "f99683fe1d9c57399494a78266a3ac8fe5b1c0f9d79084a3c0e8d3ad02363ae9"
+    },
+    {
+      "seed": 1201,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 385,
+      "finalHash": "30d769820eb2671ee4d87918d5c89c43e5f472407ba18bd3135cbbc2f1dd48b2"
+    },
+    {
+      "seed": 1202,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 321,
+      "finalHash": "b9d2cab83d18d822a13f401c2d19295080abb67662a8b8e3ecb6c8fb02d058d4"
+    },
+    {
+      "seed": 1203,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 331,
+      "finalHash": "5c2c94834d8ce18c203c96f18ab5681493ac55e2243e764a5a85f7f25a5c036e"
+    },
+    {
+      "seed": 1204,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 300,
+      "finalHash": "53a101161be5dbf89bbca252c7f95f77159c27b1c3ec3e3a83bc02c59c446347"
+    },
+    {
+      "seed": 1205,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 296,
+      "finalHash": "d0326b52e86ea46113d2496196c4fe66677b898a0dba3d8fb77c648f23ee5ae5"
+    },
+    {
+      "seed": 1206,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 343,
+      "finalHash": "dd187ea8272bc74ceeedbfd98397c142aded30910860190a65d6083a16c860bd"
+    },
+    {
+      "seed": 1207,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 300,
+      "finalHash": "d9f9e2c111907e612a4fa14c1377fdd35f4fab15c2228192ac32332e5a961b6e"
+    },
+    {
+      "seed": 1208,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 300,
+      "finalHash": "fd40b45e2f913c1930dbcbcf2038740857fadf0e920e0e17c2e1cd3d7058bc9d"
+    },
+    {
+      "seed": 1209,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 386,
+      "finalHash": "e853a01e956c83bfd8a780b216b2491e65fa275c20aff93cd979550fbea3c6e0"
+    },
+    {
+      "seed": 1210,
+      "winner": "Blue",
+      "turns": 40,
+      "commands": 39,
+      "damage": 381,
+      "finalHash": "2f44c530a74daf97d464b0fa4f31e7a37b4ab006414852335f3777ed139b6b17"
+    },
+    {
+      "seed": 1211,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 362,
+      "finalHash": "175121f54250f5cd541256cca247cdda53e321d05a6b8d4b371daac49e30bbc1"
+    },
+    {
+      "seed": 1212,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 334,
+      "finalHash": "71384956c844f2659c4f4e55841a610be742c68bba992d1f7831e81e37284696"
+    },
+    {
+      "seed": 1213,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 378,
+      "finalHash": "ff539bbab36628c324c7367fad3cf06e0056c409d11cbd9d9d2f1732790e6589"
+    },
+    {
+      "seed": 1214,
+      "winner": "Red",
+      "turns": 51,
+      "commands": 50,
+      "damage": 391,
+      "finalHash": "463ca6e05c7609573db60384838fdef1a5b7ab41c9f9533614e6bf9a71c9e836"
+    },
+    {
+      "seed": 1215,
+      "winner": "Blue",
+      "turns": 20,
+      "commands": 19,
+      "damage": 300,
+      "finalHash": "af195e391626fa7b3a04252849219173156cac8cba7ffe4d7b83057e9276c652"
+    },
+    {
+      "seed": 1216,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 381,
+      "finalHash": "9ee9d546295b6da3823ab299ff509d6de9ce13d72dd25c633b29c2fbdce102dd"
+    },
+    {
+      "seed": 1217,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 369,
+      "finalHash": "e400164803b56736291ca45329134f29dbb4f2e8eda05afcfdce35bb60e64c79"
+    },
+    {
+      "seed": 1218,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 321,
+      "finalHash": "043a1120f703ccdba62f286653d5f2afd22d084e7a2b47b59e5053bfd4e4884f"
+    },
+    {
+      "seed": 1219,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 292,
+      "finalHash": "7b29c576383a67b7360bdb67d3cb1d9ad306de7ae2336081619598479c046848"
+    },
+    {
+      "seed": 1220,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 372,
+      "finalHash": "d16ec617a0facad3b5ceefa12af959d16db1592d16af842df52359efd4665c85"
+    },
+    {
+      "seed": 1221,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 381,
+      "finalHash": "485df28ca7c227dde51921f1749087a08be51b82730027a5bf833c976e69f698"
+    },
+    {
+      "seed": 1222,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 300,
+      "finalHash": "5cdc65bc2c265c0000f67c7a5c18a17c04fd9a427ece6a46c8f7b5b9e9a37af8"
+    },
+    {
+      "seed": 1223,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 363,
+      "finalHash": "eadc585d7b373996c9fc6755ab982d590d22d2f09720a48448ed98b286ccb9c7"
+    },
+    {
+      "seed": 1224,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 389,
+      "finalHash": "3ca31ae471c1c4b1cd70b3dc610378189a1327d0c0515f0c72845383b3ea212d"
+    },
+    {
+      "seed": 1225,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 367,
+      "finalHash": "0a26256347855c7229c77499186c97e94e5f8fa0df880d39abb51dd316a6640c"
+    },
+    {
+      "seed": 1226,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 324,
+      "finalHash": "5dcfdf2c1c1ebe09b812d1d753285b200cb86db5677b0666d368919470cba5c2"
+    },
+    {
+      "seed": 1227,
+      "winner": "Draw",
+      "turns": 201,
+      "commands": 200,
+      "damage": 0,
+      "finalHash": "f3be9ca3eeea52d0fb822eb46f2307c93ed88d0953e9a8e0cb065653c6dae06b"
+    },
+    {
+      "seed": 1228,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 318,
+      "finalHash": "8b3f3cb3ff01e33563e1724d9b09eb90bc0fa5a06b008fe456994a745df89775"
+    },
+    {
+      "seed": 1229,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 367,
+      "finalHash": "4c0b91767204cef450a19d6755c9325956083ab2621ad49852bc1880ffe9dd61"
+    },
+    {
+      "seed": 1230,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 377,
+      "finalHash": "2c7c9c7fbef6c0749b6d5f6ad04f0fe6246049caf17af39fcd56a958406d0ce0"
+    },
+    {
+      "seed": 1231,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 317,
+      "finalHash": "fac35d3b3a9ed8e9022e7f52e0daa9e0751bb04228071e9225c7511e54400749"
+    },
+    {
+      "seed": 1232,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 385,
+      "finalHash": "bd3f4f2183f499219debcbf17d789c4626882e0d1cd9f4fc0b85d97eb68f29c4"
+    },
+    {
+      "seed": 1233,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 399,
+      "finalHash": "7d42663c3c3597b83c981cdf72e63ed2c18523d6cada0cded3ea431178cd4156"
+    },
+    {
+      "seed": 1234,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 378,
+      "finalHash": "221a33768c7c5c5463cfdff19138995ed7d9bddab3f7356a8c8e8e877e415e8a"
+    },
+    {
+      "seed": 1235,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 387,
+      "finalHash": "09441e2f232fa3521bb85c6f2c998d0a82057b5a65d68e8591b3fad0d9b1a0aa"
+    },
+    {
+      "seed": 1236,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 382,
+      "finalHash": "838916c42d0ebc2cc13c93c24fdd4e59a1aae53ce82f76fb0327ff4298a1544b"
+    },
+    {
+      "seed": 1237,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 374,
+      "finalHash": "a09464c584bee5f71c432f973e6af2af66e18a69418720f7008ee16b265a470c"
+    },
+    {
+      "seed": 1238,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 385,
+      "finalHash": "d5b5b37cf6f4fc605ddebbe72c1393adfc14532003b2285c05372d871c007532"
+    },
+    {
+      "seed": 1239,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 329,
+      "finalHash": "553c7057f5b7383435c102642c826385feccabc2ea3ee106d9a1af94f99fec31"
+    },
+    {
+      "seed": 1240,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 395,
+      "finalHash": "e6ef2b829e05956a90195f03f61af4f7ca0b4a18e99d582af722d5ae68ebd23f"
+    },
+    {
+      "seed": 1241,
+      "winner": "Red",
+      "turns": 19,
+      "commands": 18,
+      "damage": 323,
+      "finalHash": "db78d51026091cc11671430f7bdf2bffc3efac5c7bdcd81f2bacdfb610cdca37"
+    },
+    {
+      "seed": 1242,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 328,
+      "finalHash": "783c9f911163f9e5b5e96e4af9382ff1abc16d11c9e9a6a72939dd5a33b39a5e"
+    },
+    {
+      "seed": 1243,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 270,
+      "finalHash": "90935cd02a5106be135a61e046b3ecb0c2244b623e3729907998d00f014408b5"
+    },
+    {
+      "seed": 1244,
+      "winner": "Red",
+      "turns": 19,
+      "commands": 18,
+      "damage": 289,
+      "finalHash": "fd27c0251e76d678f92d707b256fd649c13246150911a65e0cfdb81c25686194"
+    },
+    {
+      "seed": 1245,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 363,
+      "finalHash": "33159fe6a4fc10d5ba42d1c1301c09c8a84ee4a69219125e67b24c416a980160"
+    },
+    {
+      "seed": 1246,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 360,
+      "finalHash": "e1dfe97dad6ecbf38ff1d6c466af57635bc41b6ce659f470727711859bf907ee"
+    },
+    {
+      "seed": 1247,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 356,
+      "finalHash": "9b9e94fe80a36b9a4e1c30259f606e43f693b810c64bff797566f068c77316e5"
+    },
+    {
+      "seed": 1248,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 353,
+      "finalHash": "a387bc7fabaa6d7fc5e024cd674018ffa6199806af7de7195a1c1a8d914bbfb6"
+    },
+    {
+      "seed": 1249,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 372,
+      "finalHash": "a8099019e40dbcc69b6637085081681a86c464fd1d1a3dc4ad655f03865b24b7"
+    },
+    {
+      "seed": 1250,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 362,
+      "finalHash": "5a9160bf783da87ce34adf9c45f966d8c6ec577f65f5bfa724bcc212eb4e3915"
+    },
+    {
+      "seed": 1251,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 386,
+      "finalHash": "db0bc30aa79f1e165a8d8dc6a034694cbe0abf149d6c122dd5dc7b83341f9896"
+    },
+    {
+      "seed": 1252,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 300,
+      "finalHash": "22bb259bce6144b3ce7e8bb46338da70f91a4b09a70b6153c8f4bba59269a9a6"
+    },
+    {
+      "seed": 1253,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 381,
+      "finalHash": "42ed4b13975cf6d9c5d1b0d5aeb5a0a257515dd4028bd7631e568ff104f06f23"
+    },
+    {
+      "seed": 1254,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 371,
+      "finalHash": "560b9d5dee418f9ceeaaebab5852531c06f6373b6e2bd00417ec87078f557b4a"
+    },
+    {
+      "seed": 1255,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 361,
+      "finalHash": "088a5107a9d99c05685afe938afd6da758cae63f214267f4068dc638e190a5ac"
+    },
+    {
+      "seed": 1256,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 394,
+      "finalHash": "9944570367312469f8345e54e7b91351bc2d1b12e6b1c78dc67556a5213c38e6"
+    },
+    {
+      "seed": 1257,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 388,
+      "finalHash": "52d96ddaa84bf88e12955959cb262466fb478ebf804bd7eeabd19ec6aa886bc6"
+    },
+    {
+      "seed": 1258,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 327,
+      "finalHash": "be5194118c0da42c7113d6ee005b66301324f83ebe1841191379988b76a217c3"
+    },
+    {
+      "seed": 1259,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 371,
+      "finalHash": "71b3a4cc1dbfcb26ab0984ca5c2a02809c1348effefbc7fee31818080549c02e"
+    },
+    {
+      "seed": 1260,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 384,
+      "finalHash": "6cbf96cfc2781bc2c97cb4c6ca1d9732492bec930b7b75508272cbb57304e7d3"
+    },
+    {
+      "seed": 1261,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 334,
+      "finalHash": "a83babfb9f008230815b5aac9ecda41737e9734936ad0d17ff2c5d42a3371bcc"
+    },
+    {
+      "seed": 1262,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 319,
+      "finalHash": "3319580f299bd8de8a76116f76328aefe3870361318598979c8bd22db4384553"
+    },
+    {
+      "seed": 1263,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 387,
+      "finalHash": "c6dfc393f251c709bcf173408094b93e3b604e44e73b378f77c6fa1d3b8f07e8"
+    },
+    {
+      "seed": 1264,
+      "winner": "Red",
+      "turns": 37,
+      "commands": 36,
+      "damage": 399,
+      "finalHash": "d7fe27ffd84a8158b2efafb88efd67b8c9ecdc770e39988ae4fcce6eb8539e73"
+    },
+    {
+      "seed": 1265,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 373,
+      "finalHash": "8b4a478086b39abd01b69b17f5926595a141a3337aaec55dc2d43442ddfdffbb"
+    },
+    {
+      "seed": 1266,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 386,
+      "finalHash": "2895ca34251d4a7d6f5a684c4fb37d0076b9b6fc139f3b34f54bef78ddd61e0e"
+    },
+    {
+      "seed": 1267,
+      "winner": "Red",
+      "turns": 17,
+      "commands": 16,
+      "damage": 300,
+      "finalHash": "90900393b5c3c6ae4c1a0a988bbe5c7943b8d06cb0ceb1a2ca2729cd81124d59"
+    },
+    {
+      "seed": 1268,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 349,
+      "finalHash": "9d37839697400175b21e3a32776afc9ae00e5d466ec6423db19db7fb1696d57e"
+    },
+    {
+      "seed": 1269,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 397,
+      "finalHash": "3cae1df0f7d702e50e1de74a5a387b2195bd5c659474a98f3d7034dee951d902"
+    },
+    {
+      "seed": 1270,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 386,
+      "finalHash": "047b6bd83c97ab21ae953cbc1ed54ebe4d923fa62037a86663adf705ca98cc05"
+    },
+    {
+      "seed": 1271,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 360,
+      "finalHash": "2a913919075b3d5338fe74f5215014c2111bf59c1fbf7177f559609196036f50"
+    },
+    {
+      "seed": 1272,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 386,
+      "finalHash": "a097ebc2a2d88d563a3ef9992fa21de3014ff8821f3a3e76b72f8062ab68be8b"
+    },
+    {
+      "seed": 1273,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 360,
+      "finalHash": "5fd60eb9eb71473baa58239963e40f71a54b029607b6472fe041b3bf257d88c2"
+    },
+    {
+      "seed": 1274,
+      "winner": "Draw",
+      "turns": 201,
+      "commands": 200,
+      "damage": 185,
+      "finalHash": "77c50d924a6227933924c80c32da53f99f580ddf182a2b2f2bb77515aadb3e63"
+    },
+    {
+      "seed": 1275,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 300,
+      "finalHash": "a70aa87dc0ef0fe0ccfe7937522a3738534903a6ee4ba6fbf4b5ef8544e5a3fc"
+    },
+    {
+      "seed": 1276,
+      "winner": "Red",
+      "turns": 19,
+      "commands": 18,
+      "damage": 345,
+      "finalHash": "2fc7f63739860d3abf094ce5b678743cdbe858f3ea6e431401693ed734ebc05d"
+    },
+    {
+      "seed": 1277,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 334,
+      "finalHash": "bf16cb57ff54d87719a1a8d4dda73c9ed21f3b61273732e945482d46a877fc97"
+    },
+    {
+      "seed": 1278,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 363,
+      "finalHash": "6ea7ad2a82dc602ca7266eab51066b2a78a1c31669fa4f19bdaeb6e0e8a07018"
+    },
+    {
+      "seed": 1279,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 329,
+      "finalHash": "f12f949e355e135e11c089f150e20f6c1814d6e24e6fc5c74e5e86ad24b28ee0"
+    },
+    {
+      "seed": 1280,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 371,
+      "finalHash": "45770e813fd81dc21a6e38c83ac3fd6c84fc99672db60953f1a2bd31a7d4132e"
+    },
+    {
+      "seed": 1281,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 334,
+      "finalHash": "5daaeef8766ec76616e114d6a352066f2b7d0220f76967b56b44ff6854960c59"
+    },
+    {
+      "seed": 1282,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 361,
+      "finalHash": "b8df73d975841a7c5e73c5b11b2d92c145e769417f7e9950f67a3ff9f6921630"
+    },
+    {
+      "seed": 1283,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 367,
+      "finalHash": "e85abf65aa192c88dfd182fa7bd381b6c8e71b1ef73b550f9d0894358926aff3"
+    },
+    {
+      "seed": 1284,
+      "winner": "Blue",
+      "turns": 34,
+      "commands": 33,
+      "damage": 378,
+      "finalHash": "f72e28872c642891ca284ba2171434188b68cef568abaa892d04ad283cfaac38"
+    },
+    {
+      "seed": 1285,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 334,
+      "finalHash": "502f8a5fc44bd00e46b1c3d80efb6ad530212e8e73804ebd6b4af60798512d81"
+    },
+    {
+      "seed": 1286,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 365,
+      "finalHash": "7f6d879f0a9a6ae53bd345fa63cbf247843abd7d9d18066cd40d0c3ec4823fcd"
+    },
+    {
+      "seed": 1287,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 300,
+      "finalHash": "610244498026b3b4013a1302985385ff3afd8ccf82fed03858dc41e16a4c44b7"
+    },
+    {
+      "seed": 1288,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 386,
+      "finalHash": "f7daf76231a41ad40d4ad210ea254e02a04524aa15506c002a837037b1ae24ab"
+    },
+    {
+      "seed": 1289,
+      "winner": "Red",
+      "turns": 35,
+      "commands": 34,
+      "damage": 340,
+      "finalHash": "6dd172a8e3715ed01b2534180896fa86808cd2266f6f81e9627f04c31d35597d"
+    },
+    {
+      "seed": 1290,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 386,
+      "finalHash": "9f8629b93d1999b6c35ee1e8ac9aa9898e68792bcd7dc275602f85522c518bc8"
+    },
+    {
+      "seed": 1291,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 352,
+      "finalHash": "2366fef6810f5d31e8b310838558488d9df5ddff274e0eaa2214ccfd3ec92bcf"
+    },
+    {
+      "seed": 1292,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 395,
+      "finalHash": "f44cb5c6d25e0f231483ab9964673adb37b1d6a77a1ff9eff65034fede1babff"
+    },
+    {
+      "seed": 1293,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 334,
+      "finalHash": "6f8b8132c2e10ab3f36c841edd7624dafd435ff9491af6e8d2d6b6c0ca58f6ab"
+    },
+    {
+      "seed": 1294,
+      "winner": "Blue",
+      "turns": 34,
+      "commands": 33,
+      "damage": 350,
+      "finalHash": "57387b0e19be44c1e66e8b04d542c0c3ca6dbbf32e61ca3649df7d76f8211f3c"
+    },
+    {
+      "seed": 1295,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 386,
+      "finalHash": "44ad3494905fff1b0ff54ed004f65dd3ebe310cd14c88ddb644ba186cbc99608"
+    },
+    {
+      "seed": 1296,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 300,
+      "finalHash": "2a1bf11cfb31ff8cba5df3f99344d2c52ba5ca96d133b6533017f16e69c07edf"
+    },
+    {
+      "seed": 1297,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 375,
+      "finalHash": "ce61c02506d77ee13c9da2e9e9e52d9d72beadff3bdf532e0e0df3b8b89c91da"
+    },
+    {
+      "seed": 1298,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 385,
+      "finalHash": "d08662a85bdd4ba82f6b0ed985bd6ea75dcf2582cbaabbe325f6014a6abe2590"
+    },
+    {
+      "seed": 1299,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 367,
+      "finalHash": "fda979cd5e0742b0be50c8b134b8cbfbccc1ff7c0d8983c7ed10b950a040b906"
+    },
+    {
+      "seed": 1300,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 359,
+      "finalHash": "2b465d37585cb383bb1647101d8cba545b00766d77118fcb2d19eba98f4f4670"
+    },
+    {
+      "seed": 1301,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 354,
+      "finalHash": "5d30e80d24bf535f28e64d825ab4178cf0e7da0eb215066eae1f2de6e41ddbb0"
+    },
+    {
+      "seed": 1302,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 382,
+      "finalHash": "4a6392ad6a02695aa5d99cd712c8c2988247126b82e7e14a002e97b5bf830e38"
+    },
+    {
+      "seed": 1303,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 394,
+      "finalHash": "07d69a552391f43595e3ca9dc9c3b4ee27794dac1ee7c5c729db0becd8de9dd5"
+    },
+    {
+      "seed": 1304,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 386,
+      "finalHash": "1520f3a2dde7edf6b67be59873c9b5118b88ab6145ca9873d3addfff40e30b40"
+    },
+    {
+      "seed": 1305,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 345,
+      "finalHash": "861e551fc776a0cc977ae19123f4fda13d0056f36fd1c3ed82bea8abcaf9408f"
+    },
+    {
+      "seed": 1306,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 334,
+      "finalHash": "e4a5e84ff05491ac59fb276e30d0ba1ddd2478e025bdeda249a45928c8ca140a"
+    },
+    {
+      "seed": 1307,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 326,
+      "finalHash": "dd64b4e4dd22973d39a77fa2982d0938490f3422f6859746b751ad951513bd02"
+    },
+    {
+      "seed": 1308,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 318,
+      "finalHash": "e0b30a52f996c77604e6f44d3cbee8f4123f5b775ca20658dd3cabc9ac413363"
+    },
+    {
+      "seed": 1309,
+      "winner": "Red",
+      "turns": 49,
+      "commands": 48,
+      "damage": 368,
+      "finalHash": "0c3903c35eeb821b08e85c8108545f2e885bcf71bfc028cc43577af9e8c9235c"
+    },
+    {
+      "seed": 1310,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 374,
+      "finalHash": "7ef9af17573024ad1c2c58da95b226fd934c47e487b00e5b44c687cbdf1440d1"
+    },
+    {
+      "seed": 1311,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 299,
+      "finalHash": "b9fc7d49c3b69de4338482f28215015f6a36ac7cd90526411c4ee9040d9d6309"
+    },
+    {
+      "seed": 1312,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 384,
+      "finalHash": "b4e21840fa6b5c127c00d07243eec90d1790e068713258ab2f7a7b3178ee5340"
+    },
+    {
+      "seed": 1313,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 390,
+      "finalHash": "5b0c49510147c46bfd35281d933b18605462a31e96dedbf31a246271d19d76b6"
+    },
+    {
+      "seed": 1314,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 396,
+      "finalHash": "f56cdc4745b864407020a1bfed4ead45ef806bfbd5ae6734ad77e89adbc92097"
+    },
+    {
+      "seed": 1315,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 364,
+      "finalHash": "773ba1fe14e68ea2751571e2015b63a6cdd56ddc37bd3880b9d2f3e09b90dd91"
+    },
+    {
+      "seed": 1316,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 377,
+      "finalHash": "ac74a6d004eb39415b48480f574963cc57b647407b6dd44a14b475a774425231"
+    },
+    {
+      "seed": 1317,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 382,
+      "finalHash": "b23a48251263618313e268ae56339060e02bfe3fadddeb6f507fdcce991dcbe6"
+    },
+    {
+      "seed": 1318,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 288,
+      "finalHash": "cd54da4bdf56c3172d3a5877a27242400c4825357f7c55aeb09e1bf623f4b68e"
+    },
+    {
+      "seed": 1319,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 376,
+      "finalHash": "b63b41431772fbd8e22d4d79310a7221ce245bd1002d4ff56f63e0f3140d9fb6"
+    },
+    {
+      "seed": 1320,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 374,
+      "finalHash": "8844ca930dcd52c39980e482420c369cc2641936d31cd2803822a8aedcd2b1dd"
+    },
+    {
+      "seed": 1321,
+      "winner": "Red",
+      "turns": 35,
+      "commands": 34,
+      "damage": 370,
+      "finalHash": "ef9790f07f0fdc74e013ccc9b3bab1fb16becf39e6100f0212b70603f4bcd694"
+    },
+    {
+      "seed": 1322,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 363,
+      "finalHash": "8b14b6dcda75f591d5c27b63844c25ecf0a0ece4d13f6a15c97c1e137c995fb8"
+    },
+    {
+      "seed": 1323,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 386,
+      "finalHash": "b22f64417fd47e97b30c502d30fe0dac1299dc50637396f901a7a8436ccd54c5"
+    },
+    {
+      "seed": 1324,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 361,
+      "finalHash": "6f8f0e73655d7af5062fb95a12e9e7941763a71f9e4561c3ff96f179238f1079"
+    },
+    {
+      "seed": 1325,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 392,
+      "finalHash": "d90bcd9001020dd25445d570b997605aeaa33df6d908689890bb8f3386ec469c"
+    },
+    {
+      "seed": 1326,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 367,
+      "finalHash": "4a534380e3e6c2accb457eece588c038535be27c510d8b42ec8e09afeb090e87"
+    },
+    {
+      "seed": 1327,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 368,
+      "finalHash": "c5720edaa06ce69fd5250ab77861e15c7d2226184780f5028065446661f33d31"
+    },
+    {
+      "seed": 1328,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 334,
+      "finalHash": "4de58520c26e7f35326d5b3e95c0a90380c24b6400ed14b6e9813c7fb4875227"
+    },
+    {
+      "seed": 1329,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 352,
+      "finalHash": "bba878432fd268b5545a8e88e84b5c966374523389da8cb5b1eded4be8029082"
+    },
+    {
+      "seed": 1330,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 392,
+      "finalHash": "8d1c542dd0e965971f211e8a5db49de2aabb6bdc18fdbbd5355e316248d2a71b"
+    },
+    {
+      "seed": 1331,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 334,
+      "finalHash": "fdb452792e926b24ab89b3ca7384f805940d858742812b53072ac5619c50de01"
+    },
+    {
+      "seed": 1332,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 367,
+      "finalHash": "68ee2bcde01cc2da3533c9f5f3985767b26548ef38782516e8389f5376b244f5"
+    },
+    {
+      "seed": 1333,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 381,
+      "finalHash": "b9a1f5f639b44ca688740df63682da26d760027c2a63acde19d3130aa1b51a21"
+    },
+    {
+      "seed": 1334,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 368,
+      "finalHash": "3a7a9b1f647e130a53984d0b62c0e5ff082b02f4857f3afcb5c02189c959dcc9"
+    },
+    {
+      "seed": 1335,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 354,
+      "finalHash": "a13b37c458c56c25155795a7e7463cd23d6b514f2e6704a89f1a6432e17d532a"
+    },
+    {
+      "seed": 1336,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 300,
+      "finalHash": "64929db00950293ece2924dc6067877bb19876a8b9a51400ef3a204d93e12b13"
+    },
+    {
+      "seed": 1337,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 386,
+      "finalHash": "89e5767424e49df295958ab3c6fa512d7b0503251f6eb6711c5a12e19f14a8e0"
+    },
+    {
+      "seed": 1338,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 300,
+      "finalHash": "704f3838f2aada260aa4d839d333be9ae529ea16e3153f282ac3349365923ea1"
+    },
+    {
+      "seed": 1339,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 361,
+      "finalHash": "1a98becc8ef48e6428f4b2d10299a9eb4e0c2dd8aa46bc743b0a82dc3846856b"
+    },
+    {
+      "seed": 1340,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 334,
+      "finalHash": "f29525b1eb975de02d96fb015b6fbe14dc2ed0680fa30c600c9d5525bba8ba02"
+    },
+    {
+      "seed": 1341,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 374,
+      "finalHash": "e4a9f19c80a768781eed9a3b924e5444eb21e45d86c397f7a1df31d830fd780b"
+    },
+    {
+      "seed": 1342,
+      "winner": "Red",
+      "turns": 37,
+      "commands": 36,
+      "damage": 386,
+      "finalHash": "6412cd3ebb1b60aa0abf2cbd4b28ac433fc963a9d2e8dbb5b6b932a7001cd398"
+    },
+    {
+      "seed": 1343,
+      "winner": "Draw",
+      "turns": 201,
+      "commands": 200,
+      "damage": 0,
+      "finalHash": "3b48ff7b94d3651d6e2840a359c276b0d43d6a67be5ded8c8576b9859e37f694"
+    },
+    {
+      "seed": 1344,
+      "winner": "Blue",
+      "turns": 38,
+      "commands": 37,
+      "damage": 328,
+      "finalHash": "15e5cbc9582198468146bb187dd672c3815ada1763e6ac695cd97bb57de73fc5"
+    },
+    {
+      "seed": 1345,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 392,
+      "finalHash": "2ec69db4cab54ba3dfca3492061d416693c41433d893edb5a614dcf767df111e"
+    },
+    {
+      "seed": 1346,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 343,
+      "finalHash": "59ac1ea1336aa440294d47648c8ef28b65eb1a0c233bd2d210e49fa1e983d3aa"
+    },
+    {
+      "seed": 1347,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 369,
+      "finalHash": "fe2d4ad07a8cd91495de1047e0c71442837ef43592f3985556ef06b75a416f08"
+    },
+    {
+      "seed": 1348,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 386,
+      "finalHash": "5629baae8555ecc9dee368920d8b1fc33ccf46bdfd07c9f3e83d22d821829639"
+    },
+    {
+      "seed": 1349,
+      "winner": "Blue",
+      "turns": 40,
+      "commands": 39,
+      "damage": 352,
+      "finalHash": "9d1bfaa388f5c338981cef8cf7fc9b6c0381d5e490d14400d69e0087ad851a64"
+    },
+    {
+      "seed": 1350,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 374,
+      "finalHash": "8d8768dc9e649b0b4d068a66939b6fcbe38e73e5f72e2f26896a8ddcbbcf794e"
+    },
+    {
+      "seed": 1351,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 360,
+      "finalHash": "4f85871609ee8f09cf1ae4049ef104ba7f23b7fbe35134e719c14afde21399a6"
+    },
+    {
+      "seed": 1352,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 352,
+      "finalHash": "c1cfbb407799b970e18a12db49bc6586e2181b05192fc8c7765709e550146383"
+    },
+    {
+      "seed": 1353,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 370,
+      "finalHash": "f9e84fb5cc2863bc8caaa4168c7daab12154eec93a5d24e9d9bae0af135e06c5"
+    },
+    {
+      "seed": 1354,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 389,
+      "finalHash": "29ffb41a3df8e2f036de4037aaf999758ad5d756894848d78d367018fcf692f1"
+    },
+    {
+      "seed": 1355,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 368,
+      "finalHash": "67f087fa9702dd4de4445406b4bf7c705aa892960d7fbe0e8a707fe6ee280f9c"
+    },
+    {
+      "seed": 1356,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 334,
+      "finalHash": "65880ffd8e9e7449668c30e041ca392ea61f87a5c47e082b0987fd0e5ba6cfed"
+    },
+    {
+      "seed": 1357,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 390,
+      "finalHash": "267ef43e1aed25b54606d99b51bd1e68fa0486f8d6d58e7da3fd329fefcc3e32"
+    },
+    {
+      "seed": 1358,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 321,
+      "finalHash": "f54897b006a6577d0c1e1c21252a2433d68509816dbcee17d786759c21c40903"
+    },
+    {
+      "seed": 1359,
+      "winner": "Blue",
+      "turns": 20,
+      "commands": 19,
+      "damage": 334,
+      "finalHash": "951ac2ee8c52061fbcbbc15759395a6a74879a1bc09f570889a752d1ed951051"
+    },
+    {
+      "seed": 1360,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 399,
+      "finalHash": "44f2b7df44d25ce76717fcb5a1d67ab23c3c668ffbaae7832c84eace8bb8ea46"
+    },
+    {
+      "seed": 1361,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 303,
+      "finalHash": "3a8dd55d39670af3ebcaa6c38892019126c4d8cb6ea019b12c537ac61229fbdf"
+    },
+    {
+      "seed": 1362,
+      "winner": "Red",
+      "turns": 37,
+      "commands": 36,
+      "damage": 395,
+      "finalHash": "f9ecd9d982f86e6fffc950dd9fb179b92900bcabd5b8cfc916ce9bd28471a552"
+    },
+    {
+      "seed": 1363,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 391,
+      "finalHash": "62fb2d99fae9ba701300cc93fc193cf32bf1d932a70ff5646e18228388c75dba"
+    },
+    {
+      "seed": 1364,
+      "winner": "Red",
+      "turns": 19,
+      "commands": 18,
+      "damage": 309,
+      "finalHash": "578692f950b5867acf999945885151cfb9e9b8482a00861b7e0d955f8d66fe35"
+    },
+    {
+      "seed": 1365,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 395,
+      "finalHash": "188ba6742b647e67fd1a2bb04fca69c954fbe5acadf54704d924d16ac5cbe936"
+    },
+    {
+      "seed": 1366,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 378,
+      "finalHash": "a6c4e51dd504bfac62574e689dd05718a64a187cafe11ba80d8f3d4e5af9fdcd"
+    },
+    {
+      "seed": 1367,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 334,
+      "finalHash": "5ffd136aeee54bd915e6204de02f9c7b8387a6f52bb91a0ba633ad212568bc7f"
+    },
+    {
+      "seed": 1368,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 396,
+      "finalHash": "0143c9c2d9fa116cd67de762e989ceb42584aa9638ab0570a95ce17d31d6ef9a"
+    },
+    {
+      "seed": 1369,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 380,
+      "finalHash": "8461cfc937d93a726ba5737ce2ab7f946a7086a5d6f1d03110cca51dba0cdd3e"
+    },
+    {
+      "seed": 1370,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 392,
+      "finalHash": "0e55919eee727adcd97eb7bbddbf262b00565b96e6de3a485b1f85183e9cd4ea"
+    },
+    {
+      "seed": 1371,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 363,
+      "finalHash": "70710100d851053c936ef09217136913e6be350a5de1028b7a2c042dacdd7a03"
+    },
+    {
+      "seed": 1372,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 391,
+      "finalHash": "cc74a45e208341e4a5aff9c95ad4fe790ad3709ad4e1449dfc2631f26f4977d4"
+    },
+    {
+      "seed": 1373,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 334,
+      "finalHash": "b98e071437ad0088214a4b3e28d153a80d2f28440077f8023e3cd3b4d674e2f6"
+    },
+    {
+      "seed": 1374,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 366,
+      "finalHash": "1113589c83169ec46caedcdb1377c391370dfe469566051eade7004fd7772d5f"
+    },
+    {
+      "seed": 1375,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 300,
+      "finalHash": "343036c57c2ee9f40d646900c64e0f5b8f408da148bb089ce219902fdf182034"
+    },
+    {
+      "seed": 1376,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 323,
+      "finalHash": "c3f694d9a6734a3c95d415ff35437e9655132b0c77a7cba5aca863911c98f762"
+    },
+    {
+      "seed": 1377,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 380,
+      "finalHash": "435e55742f032e6e4a198c33da7b7ceda1a6292cfe10d5f2fa57db4a02a47cc8"
+    },
+    {
+      "seed": 1378,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 374,
+      "finalHash": "3cbbbb472f0ddecba525a74b18f6b9a6cda742c8602aa31cb1542fa83780070c"
+    },
+    {
+      "seed": 1379,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 367,
+      "finalHash": "a5746ee6d7c82e205edf418cc98acc3c91e8addea9c6519aa23c75f883d89387"
+    },
+    {
+      "seed": 1380,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 343,
+      "finalHash": "ecbdbaf1720486382bb51665910a1737d3ea1b8f4198ef1c86d2d0126e0faa71"
+    },
+    {
+      "seed": 1381,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 386,
+      "finalHash": "503f7faa4f1c1b8dd09b43a251c9a7c3473509c69acd24b8822bd8054a309f6d"
+    },
+    {
+      "seed": 1382,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 370,
+      "finalHash": "8b5e615a688250bf78c471aebc350ffe88e906f149bea4ae4b6d4c2d49693510"
+    },
+    {
+      "seed": 1383,
+      "winner": "Blue",
+      "turns": 34,
+      "commands": 33,
+      "damage": 389,
+      "finalHash": "fe8106b54232606bdc94ff7cd939ab97d1db21b90e72f94760c90b3e1fdcac94"
+    },
+    {
+      "seed": 1384,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 318,
+      "finalHash": "ce746aaf8511c10e4408d2442df11b5eebc7d1a035a6603e48c7e9616657bd95"
+    },
+    {
+      "seed": 1385,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 360,
+      "finalHash": "c3dcf3a42e0056747358acd558dc5ffc2a02f44645b3d66d837265df7c928861"
+    },
+    {
+      "seed": 1386,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 386,
+      "finalHash": "d5ba284918c2956cd398aacfcac74fe7844c8d37f69e9ea25630a36d6fd0012c"
+    },
+    {
+      "seed": 1387,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 386,
+      "finalHash": "c39c6ae3765c5835fd78c771f56a0fdd0ed7b9030982c661f134520ed7f74dec"
+    },
+    {
+      "seed": 1388,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 352,
+      "finalHash": "17bef98ec86fff5cb5be7adf2907dca32a0232a6147f75eb047de8864829f44f"
+    },
+    {
+      "seed": 1389,
+      "winner": "Blue",
+      "turns": 20,
+      "commands": 19,
+      "damage": 300,
+      "finalHash": "5e5ab39557abdade2a4dd178c1bb7e1ca7a6b9c2b5c727e8ce0dc8412ef43961"
+    },
+    {
+      "seed": 1390,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 369,
+      "finalHash": "844ff69dc102f44f4158d4adc8d8ef37b3d0cb07daff94d32b174772256483f2"
+    },
+    {
+      "seed": 1391,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 378,
+      "finalHash": "64069bdc04b759ca4b9329688c113e3bb58b102578e0a14955a21eb749a6cd7f"
+    },
+    {
+      "seed": 1392,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 300,
+      "finalHash": "e52ee54e3a97ff18ae4d68a9cddf83306c4e4341718202c9f32fa81719ab78d7"
+    },
+    {
+      "seed": 1393,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 360,
+      "finalHash": "a1993ee7fa58225f2c43c4ef3ac4c42b7789b1eab3dacae14396976daf95bf14"
+    },
+    {
+      "seed": 1394,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 334,
+      "finalHash": "ef3302463e10bce7f9739264a6787be43ba30531ace9bef5a10aa7ad8d27081c"
+    },
+    {
+      "seed": 1395,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 397,
+      "finalHash": "1a64b450ed60faa0632124d9b8a57f9253803ef4fff82a31d5d45481aa512d2a"
+    },
+    {
+      "seed": 1396,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 325,
+      "finalHash": "e40c89665fc86d46ca47a8814d15bb0e88092a6c76beb727ab26d2423161e3b4"
+    },
+    {
+      "seed": 1397,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 334,
+      "finalHash": "36feda49c9ac148134ae8096b2080c1896d479cba5882a24df04511b345c744c"
+    },
+    {
+      "seed": 1398,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 356,
+      "finalHash": "12d11eec4e7132b70d31da20463ba97369e1e63cedadf03248746d2cb7b201b8"
+    },
+    {
+      "seed": 1399,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 352,
+      "finalHash": "219943ce19e2bf91e3b010ec31505b48b6ac65488e0b5fd61e4e70b44312372a"
+    },
+    {
+      "seed": 1400,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 300,
+      "finalHash": "00f17080bb0570aec89b69b6f5ee2c9a3ec544aec20f93d3dedc55ef9cec2e1a"
+    },
+    {
+      "seed": 1401,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 368,
+      "finalHash": "5436b370f5360c1176b26ac4b5d06ba4c449c3c3aeb2e0b9679be2f454e8bfdd"
+    },
+    {
+      "seed": 1402,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 386,
+      "finalHash": "4b09b836d2d9dd9d3caad973e53a5ee05ed8285ededa29c60eeb7e3b3aa298c2"
+    },
+    {
+      "seed": 1403,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 398,
+      "finalHash": "44effd6a42d65729baeb643253cc79c2f66c9cbec77c484b895ad0daf7a9b39f"
+    },
+    {
+      "seed": 1404,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 388,
+      "finalHash": "f371ef480bb80396d107550f207017b33f9afc1b68e1f73752c78460924958fa"
+    },
+    {
+      "seed": 1405,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 352,
+      "finalHash": "455aa19580d216453894ece6761b2d3baf6899a1b011bda92264d02c1ad9d996"
+    },
+    {
+      "seed": 1406,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 334,
+      "finalHash": "d5f690017d7f8037c62008a3d76dd8b6ebfefcad0d19978c86d04be541102d19"
+    },
+    {
+      "seed": 1407,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 395,
+      "finalHash": "7ca7f4ae9743bb3078686fcf6adab76b91a4f53bb2395f669bedf8e645440011"
+    },
+    {
+      "seed": 1408,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 386,
+      "finalHash": "64b4f79e870fc84a9775580e4998c4a1fed022f2dbaa933887ea7b9fa853fb08"
+    },
+    {
+      "seed": 1409,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 300,
+      "finalHash": "94574fc5b30880c18f37ebc35b1708232a635daa63f82016472f3f486da3af1a"
+    },
+    {
+      "seed": 1410,
+      "winner": "Blue",
+      "turns": 20,
+      "commands": 19,
+      "damage": 334,
+      "finalHash": "5b339569a608e0628d5cb8a3cbe85dcf4dcc16a2df23f694d8e39f0c8bb4488e"
+    },
+    {
+      "seed": 1411,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 322,
+      "finalHash": "958f1edfcc1a9e24bfdcfe8ac15161e7343fcfe985b9d2c1ef87ef32af8a21cd"
+    },
+    {
+      "seed": 1412,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 367,
+      "finalHash": "9814c0a750d2ad5693d578a2c41177769cd995ccf22d68a51c4c805509f90372"
+    },
+    {
+      "seed": 1413,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 387,
+      "finalHash": "b4edaeea47511f246b25b1ce42a805f53175cba8e79e2ed0d902290365031edc"
+    },
+    {
+      "seed": 1414,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 364,
+      "finalHash": "b70f81ef09c1cd2e6c4346d2ab2a93cb6a17e5ebba8e55ee786001f39c817e46"
+    },
+    {
+      "seed": 1415,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 344,
+      "finalHash": "5f64ccf92d0a72fc6852ff0650165c37cdabe9e6258dcfe084a59a09520d9bd5"
+    },
+    {
+      "seed": 1416,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 321,
+      "finalHash": "38e18272dd90304cb788308ea8850e10b00b0abf0a70c7357200b156ab083847"
+    },
+    {
+      "seed": 1417,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 368,
+      "finalHash": "ff38d42b9290bee4bd8dc61e3791ac9d1e85827deae13215cba1af8d96f65c82"
+    },
+    {
+      "seed": 1418,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 300,
+      "finalHash": "c8c596dff1e15978adc1e8567b0bf98c8f483988a08f18f11ae14e271e2531c4"
+    },
+    {
+      "seed": 1419,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 366,
+      "finalHash": "22d106cb5d096b200dc7ab509a29bea21f38870ab4540bc863dbcd402851f080"
+    },
+    {
+      "seed": 1420,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 334,
+      "finalHash": "86af9d36d1b18c2519f61622664e5aa6e94bf38ba855a1f961f195958feb5002"
+    },
+    {
+      "seed": 1421,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 354,
+      "finalHash": "92152eb3e70b5a679dfed383f382056e3eb8ddbd6bee6f6c096a0dc94d310a86"
+    },
+    {
+      "seed": 1422,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 317,
+      "finalHash": "64601925b092ccb9addccbb6d6088d2bf4fb960fabb9db79a03a8671bc87f5ee"
+    },
+    {
+      "seed": 1423,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 368,
+      "finalHash": "792b360003eec388035ece4033316cf5ddaf655f95e567fed7e77a6054a1e3c0"
+    },
+    {
+      "seed": 1424,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 300,
+      "finalHash": "c72a869e15f2d0c71708d23a6d8c372a835acf7e03588b3e4c97af122b93717b"
+    },
+    {
+      "seed": 1425,
+      "winner": "Draw",
+      "turns": 201,
+      "commands": 200,
+      "damage": 0,
+      "finalHash": "844842068bf5bd45049768c8f07bc1e16b3a7beb1fde59125d6db622885fb929"
+    },
+    {
+      "seed": 1426,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 377,
+      "finalHash": "a796c0188c75738ba698122841c93cbb77677b5912637f7117a3537f3f68eb5c"
+    },
+    {
+      "seed": 1427,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 386,
+      "finalHash": "cdfb4a3630dfe394a7dff4b958a10a685e426d3212768ee45363186664905c22"
+    },
+    {
+      "seed": 1428,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 289,
+      "finalHash": "f4b8e1788e1d19bf273c7f0d773bc4675512a17c134e72fcb5dd71ef55f3071c"
+    },
+    {
+      "seed": 1429,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 375,
+      "finalHash": "73187733a3a76d621e9725243eaa4f6338a3c69838d9dc8e0f19b272a087460b"
+    },
+    {
+      "seed": 1430,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 336,
+      "finalHash": "86ed74c9773308d62bd4840b9db2338a4a938101d1184c9883c203e9acd1aa03"
+    },
+    {
+      "seed": 1431,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 368,
+      "finalHash": "6eb8c7bc1e64062b1ae819651334fe8cf808d369a660903b1019eed3a3465d68"
+    },
+    {
+      "seed": 1432,
+      "winner": "Blue",
+      "turns": 20,
+      "commands": 19,
+      "damage": 300,
+      "finalHash": "bcb548f72152959eadf3ab7f67cac784612c261ac6beab8357ee461b7714ec0a"
+    },
+    {
+      "seed": 1433,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 368,
+      "finalHash": "708bf8ef38db56db12b63966efa219c6504f4c7e4f36fba816ab801d5ccad287"
+    },
+    {
+      "seed": 1434,
+      "winner": "Blue",
+      "turns": 34,
+      "commands": 33,
+      "damage": 369,
+      "finalHash": "cbecd32e3cd94a9d14e15c29d703e5d2a89c930fe6212c0101864b70cc4d5556"
+    },
+    {
+      "seed": 1435,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 392,
+      "finalHash": "c91e3ef1764c3d2dfa423d60e3b20d4b75761ee05a53b1ffe1d1d1dbc2786d25"
+    },
+    {
+      "seed": 1436,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 367,
+      "finalHash": "5823ad214201cb8b85cbd9a44d8d4480bd8147da7b72ab9228b95e8a0c6f4676"
+    },
+    {
+      "seed": 1437,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 334,
+      "finalHash": "12614befd3971c58761f73cc454658b5796bf422ed0a5d618290d887b0ed1c02"
+    },
+    {
+      "seed": 1438,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 358,
+      "finalHash": "da68da719a27859842c5912098d9c99e5fb288d71f7fa47a0a45c865e4801b88"
+    },
+    {
+      "seed": 1439,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 397,
+      "finalHash": "2e828cdadb85e558a9f38283f4721339befae9a6b4a48d56f34b666e8fdda4e1"
+    },
+    {
+      "seed": 1440,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 300,
+      "finalHash": "3248254f39939e49ec1042a2ca3ad5cf8db78082b3fa1ae7ea9475f560e2e5ce"
+    },
+    {
+      "seed": 1441,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 346,
+      "finalHash": "2ed150b6676a65ae3a05bf6520cc92c62f98c72d8fd4c664dfdb4a33d67a01dc"
+    },
+    {
+      "seed": 1442,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 386,
+      "finalHash": "edaeb4a7bba42685059ef5e28004a8336809245a0e67b458453dd824ebb311c9"
+    },
+    {
+      "seed": 1443,
+      "winner": "Draw",
+      "turns": 201,
+      "commands": 200,
+      "damage": 52,
+      "finalHash": "1fb667b9cdff2cef49f2e2a50427d2cf791adc7c4a26b40b7c88bbfcdb528f32"
+    },
+    {
+      "seed": 1444,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 353,
+      "finalHash": "838f381ad1f3fc58e80b1a357501c2826a034b380141798a85daa431383b6bc1"
+    },
+    {
+      "seed": 1445,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 386,
+      "finalHash": "17429f1efd3b7a5f8445142ef1012f3bc4bed83038dffb3a5c121ce54eb81add"
+    },
+    {
+      "seed": 1446,
+      "winner": "Blue",
+      "turns": 34,
+      "commands": 33,
+      "damage": 381,
+      "finalHash": "70189868ab171b904615f87703b41d2742ef175195dd3a81759c0faf596a78e8"
+    },
+    {
+      "seed": 1447,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 375,
+      "finalHash": "4eb406e81cd40083dc3c37ac24d4d9122b3e9cd184ae8b808034c427c70de03a"
+    },
+    {
+      "seed": 1448,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 334,
+      "finalHash": "cc725488b8063d9518df2f30541e23631aa59fa5ed2d5c1cae15888f3de4a8ea"
+    },
+    {
+      "seed": 1449,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 386,
+      "finalHash": "70f7cdb5755dc58d2ee8d2e30dea30a1cc67d85475d6314912fab36aae2988f5"
+    },
+    {
+      "seed": 1450,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 334,
+      "finalHash": "d027e525b85104561eddbc2ded21404f87c824a9abede8b798b3fa552291a903"
+    },
+    {
+      "seed": 1451,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 370,
+      "finalHash": "9ffd92e990f51ab8bc8b519057911c07c0411fe8e635ac56296805728aa2d749"
+    },
+    {
+      "seed": 1452,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 329,
+      "finalHash": "05c3a56b93466695b879e5db6a166f1479d5d99f6255cda5296d0ac476d3c23a"
+    },
+    {
+      "seed": 1453,
+      "winner": "Draw",
+      "turns": 201,
+      "commands": 200,
+      "damage": 0,
+      "finalHash": "2891d56e06fbae50254b69a9dd38e610e6bb01bba221c8533846cf1b71789cfa"
+    },
+    {
+      "seed": 1454,
+      "winner": "Red",
+      "turns": 21,
+      "commands": 20,
+      "damage": 356,
+      "finalHash": "24c1d9a85c5d4a83e24e65d42f2adc8d6d90b1d0dedc09287da0f0c2638abe15"
+    },
+    {
+      "seed": 1455,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 350,
+      "finalHash": "87c7e64ffc12850949921b965632a04728682eb7683dcffbb9e8f70d013d9d27"
+    },
+    {
+      "seed": 1456,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 334,
+      "finalHash": "f11d5e476eb39217babe9eb61ee9bc50ef6b15bdf0c05af207b99e98eb2fb5e3"
+    },
+    {
+      "seed": 1457,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 342,
+      "finalHash": "711b4e999fba74ce83002f0c214b66a9b533c7a4f38d43cad3377d70b156cb4e"
+    },
+    {
+      "seed": 1458,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 322,
+      "finalHash": "af6229fb9a3aa557fecd5d8dfc7d3e28b587af0ef0a3ca59f2d45e767d419212"
+    },
+    {
+      "seed": 1459,
+      "winner": "Blue",
+      "turns": 20,
+      "commands": 19,
+      "damage": 298,
+      "finalHash": "71ff334abcef98af898baa80892adb118969fc6554ca6cd3bf92dccb359ea35d"
+    },
+    {
+      "seed": 1460,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 356,
+      "finalHash": "2f99c8aae4faee599efda306bcb43f100a30ea2f5aa687ffe607c324efb90b2f"
+    },
+    {
+      "seed": 1461,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 300,
+      "finalHash": "87337b5ad51896f7ad98b0a9f5f82e33b7af1d0c1fb35a4adc10aca6e19fa3a6"
+    },
+    {
+      "seed": 1462,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 383,
+      "finalHash": "68009686a201bf7ef417e112f415b1eba237efa157ca0cf19444090a9ac11ffe"
+    },
+    {
+      "seed": 1463,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 300,
+      "finalHash": "94597d5b8d78d582906dfefaa19bbe5038c37bb2023a5fea54b83d3acd2a8c51"
+    },
+    {
+      "seed": 1464,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 379,
+      "finalHash": "7c7591fbc79bedef34f0bfa53fc47f1e5b71bc1c23e2c350a16170f994dce199"
+    },
+    {
+      "seed": 1465,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 355,
+      "finalHash": "d87009fb4a9863a5e3e1d573aec9518744a21608663b680247f660883e5e821b"
+    },
+    {
+      "seed": 1466,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 340,
+      "finalHash": "3fd9bd323c580f43142fcbdf7a77e7bb1fe4804bfb18f9d9185b4fd2f1b73a02"
+    },
+    {
+      "seed": 1467,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 356,
+      "finalHash": "7ca30510d1754743628ae5b0d565afb35d7936aef672f4cb06871d31042d8327"
+    },
+    {
+      "seed": 1468,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 370,
+      "finalHash": "bfeb7138b7d668167bfca8b86486c624d7f4da25199d5e7bbc1675f715f3a12b"
+    },
+    {
+      "seed": 1469,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 321,
+      "finalHash": "687a01359ee7167f059d12c88f530b3e35dd5b11eead6972a9903748fd0cebd1"
+    },
+    {
+      "seed": 1470,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 392,
+      "finalHash": "bf6537fd72f3ab34080f46e2e1960d45ac3b2e78f59b16c1cc3d5fa82cbb02e6"
+    },
+    {
+      "seed": 1471,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 375,
+      "finalHash": "ca6fce97631be2c72843c661bc6a433a708b0aa09cbd873c748c9f17fc65c6d8"
+    },
+    {
+      "seed": 1472,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 334,
+      "finalHash": "59122dbd917be182870209699ffb769a62a538a2ca8fa34a7e3cbc3df937ecc2"
+    },
+    {
+      "seed": 1473,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 366,
+      "finalHash": "84e6561c1c1ba34b184f490f7b5c5d7a5e943b9bddf3bf0731804dd6aa5e8abb"
+    },
+    {
+      "seed": 1474,
+      "winner": "Blue",
+      "turns": 32,
+      "commands": 31,
+      "damage": 364,
+      "finalHash": "2b6f414909cdcba334b6b3126aa93944c02a80a59fd615599f24726022730f1c"
+    },
+    {
+      "seed": 1475,
+      "winner": "Red",
+      "turns": 25,
+      "commands": 24,
+      "damage": 300,
+      "finalHash": "d16aebd67e01bc0e8e1643729b077b7f82363bc70fd17f044d34bd0618dcf84a"
+    },
+    {
+      "seed": 1476,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 371,
+      "finalHash": "5b969548c6cdd9346f6d28ec0edd760aef0f7e7d1d5d0beb2a2e29bc492031fb"
+    },
+    {
+      "seed": 1477,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 369,
+      "finalHash": "d6e12bba8744d903344c5fd57237ed59512539af360e0c78833dc3e161534e29"
+    },
+    {
+      "seed": 1478,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 389,
+      "finalHash": "414d1303ce8886a977a3cb811f5e3676c71a98cebbeb80fd2e317be623508b59"
+    },
+    {
+      "seed": 1479,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 343,
+      "finalHash": "c270382d5cd56caccf17223e6726ee6808c279f175b2c1d92a770f69c7d59211"
+    },
+    {
+      "seed": 1480,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 386,
+      "finalHash": "42cca8d4e8778821941343243f8a6a2cc7be719c50a0109196aae6a51a52bb3a"
+    },
+    {
+      "seed": 1481,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 347,
+      "finalHash": "38a86efd5792311728d3434d1c1517253e46aec9dd2a2a4e7538ed7ca90b4a31"
+    },
+    {
+      "seed": 1482,
+      "winner": "Red",
+      "turns": 27,
+      "commands": 26,
+      "damage": 380,
+      "finalHash": "428dbe844b96bc14ad038632e0fc5ac7a740401274feee0fe112c4158e2d0f12"
+    },
+    {
+      "seed": 1483,
+      "winner": "Blue",
+      "turns": 20,
+      "commands": 19,
+      "damage": 300,
+      "finalHash": "2d55cc5a5af2fd986b109c3722083ad52669f59ff953e992b53ebc5de05c3e09"
+    },
+    {
+      "seed": 1484,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 334,
+      "finalHash": "446d737c0ea64597737fe31f21794ddab5892f5f87e5e2a8e6dd3cb8fb37387f"
+    },
+    {
+      "seed": 1485,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 348,
+      "finalHash": "4bac9950c8a2c9fc15426673047b6a877b5c0bd75a66670f277c89b1b1c9a9b2"
+    },
+    {
+      "seed": 1486,
+      "winner": "Blue",
+      "turns": 22,
+      "commands": 21,
+      "damage": 389,
+      "finalHash": "5e556b28b6320849ffbc105939e78a60322c53594bb3bb824451b1e9b5d044bf"
+    },
+    {
+      "seed": 1487,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 359,
+      "finalHash": "2c2a8e511e83b130ac1b237badd9e2cf65c801598e667a4a6cc087e29b2f1461"
+    },
+    {
+      "seed": 1488,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 300,
+      "finalHash": "2eac07735039a5531e71e42ad65c755bdea0693eef70711276ec5cc0a0e46c9c"
+    },
+    {
+      "seed": 1489,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 323,
+      "finalHash": "8106158adab65212fece9a0ee6eb89af60a97dc145837be8833a0c6875dbf46f"
+    },
+    {
+      "seed": 1490,
+      "winner": "Red",
+      "turns": 33,
+      "commands": 32,
+      "damage": 379,
+      "finalHash": "9bed7e399bbac3d679dede271c43f9827aa8ff6fbfacfc54a16c8f3808c22097"
+    },
+    {
+      "seed": 1491,
+      "winner": "Red",
+      "turns": 23,
+      "commands": 22,
+      "damage": 397,
+      "finalHash": "c73aaa57ba565362b8480608ef6d5b494f77a1186e0a3e7273893db15288578c"
+    },
+    {
+      "seed": 1492,
+      "winner": "Blue",
+      "turns": 28,
+      "commands": 27,
+      "damage": 350,
+      "finalHash": "21c4564b44bd9e4a9386fd0037f024f01303fe392ffbe2fc4964351b031c01d2"
+    },
+    {
+      "seed": 1493,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 334,
+      "finalHash": "5a2a270ed6d49661608d87aebcf1f1a8e2e23d8f3f0f9655c35b35764f7d8784"
+    },
+    {
+      "seed": 1494,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 368,
+      "finalHash": "7f61db99dd18c74e30b8fa57b6a6a27b56d004bd78409d493aff9bb140b72cc1"
+    },
+    {
+      "seed": 1495,
+      "winner": "Blue",
+      "turns": 24,
+      "commands": 23,
+      "damage": 362,
+      "finalHash": "deb0c71910a2f21e0ec95c42c0d6b9f2729cc3c0cfa556aa70d902e4f7d905ce"
+    },
+    {
+      "seed": 1496,
+      "winner": "Red",
+      "turns": 31,
+      "commands": 30,
+      "damage": 346,
+      "finalHash": "621e8209e5a2fedd22522c98de362af02b403d0c71dd75b126faa451e0a5e181"
+    },
+    {
+      "seed": 1497,
+      "winner": "Red",
+      "turns": 29,
+      "commands": 28,
+      "damage": 395,
+      "finalHash": "b4b3155c393f761f4001ad864d078a6c2e260723c52a134a2c1a11bbe7d4bdb7"
+    },
+    {
+      "seed": 1498,
+      "winner": "Blue",
+      "turns": 26,
+      "commands": 25,
+      "damage": 370,
+      "finalHash": "b0383db1edf9631461c2ebc985aea5b6c2c7795808d56b7d4b5b6851f4f43a34"
+    },
+    {
+      "seed": 1499,
+      "winner": "Blue",
+      "turns": 30,
+      "commands": 29,
+      "damage": 371,
+      "finalHash": "d7b4ee9727b00679f413ed3fa316ba44a3c363c6b9cacc525c6aa93958e77861"
+    }
+  ]
+}

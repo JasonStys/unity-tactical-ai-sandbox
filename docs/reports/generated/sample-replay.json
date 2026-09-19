@@ -1,0 +1,765 @@
+{
+  "formatVersion": 1,
+  "initialState": {
+    "width": 12,
+    "height": 8,
+    "activeTeam": 0,
+    "turnNumber": 1,
+    "cells": [
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 18
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 38
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": false,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 19
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 16
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 45
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 2,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": false,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 35
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 47
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 2,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 45
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 30
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 31
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 28
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 22
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 2,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 25
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 27
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 36
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 30
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 18
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 2,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 39
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 2,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": false,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": false,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      },
+      {
+        "isWalkable": true,
+        "moveCost": 1,
+        "cover": 0
+      }
+    ],
+    "units": [
+      {
+        "id": "blue-1",
+        "team": 0,
+        "x": 0,
+        "y": 2,
+        "hitPoints": 100,
+        "maxHitPoints": 100,
+        "cooldowns": {}
+      },
+      {
+        "id": "blue-2",
+        "team": 0,
+        "x": 0,
+        "y": 5,
+        "hitPoints": 100,
+        "maxHitPoints": 100,
+        "cooldowns": {}
+      },
+      {
+        "id": "red-1",
+        "team": 1,
+        "x": 11,
+        "y": 5,
+        "hitPoints": 100,
+        "maxHitPoints": 100,
+        "cooldowns": {}
+      },
+      {
+        "id": "red-2",
+        "team": 1,
+        "x": 11,
+        "y": 2,
+        "hitPoints": 100,
+        "maxHitPoints": 100,
+        "cooldowns": {}
+      }
+    ]
+  },
+  "steps": [
+    {
+      "kind": 0,
+      "actorId": "blue-2",
+      "targetX": 2,
+      "targetY": 5,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "227a469796cb468281d8863d3464426f8db5a510f10650cb03f6cf8ddb108fd7"
+    },
+    {
+      "kind": 0,
+      "actorId": "red-1",
+      "targetX": 8,
+      "targetY": 5,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "3b55031f2c83362b32d94f86487295c46905b35f5a1935675f70b74f4770eddc"
+    },
+    {
+      "kind": 0,
+      "actorId": "blue-2",
+      "targetX": 5,
+      "targetY": 5,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "c933b4acdc4faa281dc112659416ab72970060cb74e92551189274acf2e99fd6"
+    },
+    {
+      "kind": 1,
+      "actorId": "red-1",
+      "targetX": 5,
+      "targetY": 5,
+      "targetUnitId": "blue-2",
+      "abilityId": "pulse-shot",
+      "stateHash": "104a84f83275039c5ec9455e68336c1bed5eaf8941ab3bd243a55a03fd2ed049"
+    },
+    {
+      "kind": 1,
+      "actorId": "blue-2",
+      "targetX": 8,
+      "targetY": 5,
+      "targetUnitId": "red-1",
+      "abilityId": "pulse-shot",
+      "stateHash": "c104b3ffad1ec515b8d986cad1a6de6c969546110fd5808fe3b566733869d50b"
+    },
+    {
+      "kind": 0,
+      "actorId": "red-1",
+      "targetX": 8,
+      "targetY": 6,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "acd1eb99bb893cbeff8a14e537d3eb852f42262da55371d02847cd96e11906a7"
+    },
+    {
+      "kind": 0,
+      "actorId": "blue-2",
+      "targetX": 8,
+      "targetY": 5,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "72a43a19d3b81ffeb0914156debccb6faae163db46604763bd02dd4c77280479"
+    },
+    {
+      "kind": 1,
+      "actorId": "red-1",
+      "targetX": 8,
+      "targetY": 5,
+      "targetUnitId": "blue-2",
+      "abilityId": "close-burst",
+      "stateHash": "975cd8a26a6d9e55b816a994c046430be2cd2c7896c897c0a8e1c64fc13cf0e4"
+    },
+    {
+      "kind": 1,
+      "actorId": "blue-2",
+      "targetX": 8,
+      "targetY": 6,
+      "targetUnitId": "red-1",
+      "abilityId": "close-burst",
+      "stateHash": "5373e6101ac353c08720182db55b61494c4ad8271272f9d3be0c36236a2848d7"
+    },
+    {
+      "kind": 1,
+      "actorId": "red-1",
+      "targetX": 8,
+      "targetY": 5,
+      "targetUnitId": "blue-2",
+      "abilityId": "pulse-shot",
+      "stateHash": "b5e51fbfc6ff89851d96fcee9066f07a077a33db1b13218a195318f12f9313a8"
+    },
+    {
+      "kind": 1,
+      "actorId": "blue-2",
+      "targetX": 8,
+      "targetY": 6,
+      "targetUnitId": "red-1",
+      "abilityId": "pulse-shot",
+      "stateHash": "6221013fabd186f49ce75838436522efe5ab20163e796175d8fc44dd7bbe6ec2"
+    },
+    {
+      "kind": 0,
+      "actorId": "red-1",
+      "targetX": 7,
+      "targetY": 6,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "bbb497f0ef7506af85a5706eaf55871f0bd2e35e4530d82036aa6c397239b9b9"
+    },
+    {
+      "kind": 0,
+      "actorId": "blue-2",
+      "targetX": 8,
+      "targetY": 6,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "3b4163ce583fdd9890b123b71d9ae879b4fa9349e27abe1bb4fb84bd3326542a"
+    },
+    {
+      "kind": 1,
+      "actorId": "red-1",
+      "targetX": 8,
+      "targetY": 6,
+      "targetUnitId": "blue-2",
+      "abilityId": "close-burst",
+      "stateHash": "e2490ced3672a8ce9ec99ee68d992b4a425f8d2309af9215582b89547d4771c6"
+    },
+    {
+      "kind": 0,
+      "actorId": "blue-1",
+      "targetX": 2,
+      "targetY": 3,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "13f9fcf8323529cb1d61d8e7577fd19de76452f90f0888e1488b146c5ae4045e"
+    },
+    {
+      "kind": 0,
+      "actorId": "red-1",
+      "targetX": 7,
+      "targetY": 4,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "8c84d25a29cac09efd1172b159a45d646a6db79d90ebb0c9a5aad15dc3022b1c"
+    },
+    {
+      "kind": 0,
+      "actorId": "blue-1",
+      "targetX": 3,
+      "targetY": 3,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "b9474a3cb83e4b4f56ff4ff70cbdf1d78b367aea83d8eed2d24404600ec6ef4a"
+    },
+    {
+      "kind": 1,
+      "actorId": "red-1",
+      "targetX": 3,
+      "targetY": 3,
+      "targetUnitId": "blue-1",
+      "abilityId": "pulse-shot",
+      "stateHash": "bff43c55ec53803b71e6c36012fcb00feaff6395622e7493a7fc391afd7319f3"
+    },
+    {
+      "kind": 1,
+      "actorId": "blue-1",
+      "targetX": 7,
+      "targetY": 4,
+      "targetUnitId": "red-1",
+      "abilityId": "pulse-shot",
+      "stateHash": "ab511edd0537a654debab688a2453b78ea3eddd1c45087e796e99824e71f98e4"
+    },
+    {
+      "kind": 0,
+      "actorId": "red-1",
+      "targetX": 6,
+      "targetY": 3,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "5c325734d7adc6a104ddd17da7ebc1637cacd59eb5f80cab0c6dc2d01d362857"
+    },
+    {
+      "kind": 0,
+      "actorId": "blue-1",
+      "targetX": 5,
+      "targetY": 3,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "4bb485b01766a0c709dfff8574e99895c567c00532030094db8ad732f608f392"
+    },
+    {
+      "kind": 1,
+      "actorId": "red-1",
+      "targetX": 5,
+      "targetY": 3,
+      "targetUnitId": "blue-1",
+      "abilityId": "close-burst",
+      "stateHash": "94853fdeccd72b92945a7e87717f8f0027f68334babc982e4b3ff17e472c4548"
+    },
+    {
+      "kind": 1,
+      "actorId": "blue-1",
+      "targetX": 6,
+      "targetY": 3,
+      "targetUnitId": "red-1",
+      "abilityId": "close-burst",
+      "stateHash": "51678fe75fd15f7dc5151713fe0b0f6fe3c774b3d953235a10234ec6c1c1e5d6"
+    },
+    {
+      "kind": 0,
+      "actorId": "red-2",
+      "targetX": 9,
+      "targetY": 3,
+      "targetUnitId": null,
+      "abilityId": null,
+      "stateHash": "5bb051befa4561a7a8807c3711801ac0dcd3ca16a221792e7e42ecb4689ec202"
+    },
+    {
+      "kind": 1,
+      "actorId": "blue-1",
+      "targetX": 9,
+      "targetY": 3,
+      "targetUnitId": "red-2",
+      "abilityId": "pulse-shot",
+      "stateHash": "163aec1b7da3f89b0c8fa90dd960225eb11561148e017329e1c8cb2295e361f0"
+    },
+    {
+      "kind": 1,
+      "actorId": "red-2",
+      "targetX": 5,
+      "targetY": 3,
+      "targetUnitId": "blue-1",
+      "abilityId": "pulse-shot",
+      "stateHash": "1b2e374e5e953299513e8f2b83fe854923eb6110e76d991c5637dad426e47ed7"
+    }
+  ]
+}

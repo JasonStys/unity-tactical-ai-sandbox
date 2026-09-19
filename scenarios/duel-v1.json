@@ -1,0 +1,39 @@
+{
+  "formatVersion": 1,
+  "state": {
+    "width": 6,
+    "height": 4,
+    "activeTeam": 0,
+    "turnNumber": 1,
+    "cells": [
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 25 },
+      { "isWalkable": true, "moveCost": 1, "cover": 25 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": false, "moveCost": 1, "cover": 0 },
+      { "isWalkable": false, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 40 },
+      { "isWalkable": true, "moveCost": 1, "cover": 40 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 },
+      { "isWalkable": true, "moveCost": 2, "cover": 0 },
+      { "isWalkable": true, "moveCost": 2, "cover": 15 },
+      { "isWalkable": true, "moveCost": 2, "cover": 15 },
+      { "isWalkable": true, "moveCost": 2, "cover": 0 },
+      { "isWalkable": true, "moveCost": 1, "cover": 0 }
+    ],
+    "units": [
+      { "id": "blue-scout", "team": 0, "x": 0, "y": 1, "hitPoints": 100, "maxHitPoints": 100, "cooldowns": {} },
+      { "id": "red-scout", "team": 1, "x": 5, "y": 2, "hitPoints": 100, "maxHitPoints": 100, "cooldowns": {} }
+    ]
+  }
+}
