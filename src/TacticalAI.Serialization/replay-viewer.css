@@ -72,7 +72,8 @@ input:focus-visible,
 button:focus-visible,
 select:focus-visible,
 a:focus-visible,
-summary:focus-visible {
+summary:focus-visible,
+.scroll:focus-visible {
   outline: 3px solid #ffd77d;
   outline-offset: 3px;
 }

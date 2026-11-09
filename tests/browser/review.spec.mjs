@@ -61,3 +61,24 @@ test("hostile game identifiers remain text", async ({ page }) => {
   await expect(page.locator("img")).toHaveCount(0);
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
 });
+
+test("keyboard users can focus and scroll the actual narrow avatar table", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 240, height: 720 });
+  await page.goto(pathToFileURL(path.join(directory, "hostile.html")).href);
+  const region = page.getByRole("region", {
+    name: "Scrollable avatar state table",
+  });
+  await page.locator("#avatar").focus();
+  await page.keyboard.press("Tab");
+  await expect(region).toBeFocused();
+  expect(
+    await region.evaluate((node) => node.scrollWidth > node.clientWidth),
+  ).toBe(true);
+  await page.keyboard.press("ArrowRight");
+  await expect
+    .poll(() => region.evaluate((node) => node.scrollLeft))
+    .toBeGreaterThan(0);
+  expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+});
