@@ -1,0 +1,107 @@
+/* File: replay-viewer.css
+ * Purpose: Responsive offline fictional replay review with clear contrast and native focus.
+ * Author: Jason Stys. Variables: fixed local colors and widths; declarations: docs/CODE_INDEX.md. */
+:root {
+  font:
+    16px/1.6 system-ui,
+    sans-serif;
+  color: #e4edf7;
+  background: #101827;
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header,
+main {
+  max-width: 68rem;
+  margin: auto;
+  padding: 1.5rem;
+}
+h1 {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  line-height: 1.15;
+}
+header p:first-child {
+  color: #7ce5b3;
+  font-weight: 700;
+}
+a {
+  color: #9ed1ff;
+}
+section,
+details {
+  margin-block: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #718499;
+  border-radius: 0.6rem;
+  background: #172537;
+}
+label {
+  display: block;
+  font-weight: 700;
+}
+input[type="range"],
+svg {
+  display: block;
+  width: 100%;
+  max-width: 42rem;
+}
+svg {
+  margin-block: 1rem;
+  border: 1px solid #8994a3;
+  max-height: 36rem;
+}
+button,
+select {
+  font: inherit;
+  padding: 0.6rem;
+  margin: 0.4rem 0.4rem 0.4rem 0;
+  border: 1px solid #9ed1ff;
+  border-radius: 0.3rem;
+  background: #101827;
+  color: #e4edf7;
+}
+button {
+  cursor: pointer;
+}
+input:focus-visible,
+button:focus-visible,
+select:focus-visible,
+a:focus-visible,
+summary:focus-visible,
+.scroll:focus-visible {
+  outline: 3px solid #ffd77d;
+  outline-offset: 3px;
+}
+.scroll {
+  overflow: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+caption {
+  text-align: start;
+  font-weight: 700;
+}
+th,
+td {
+  text-align: start;
+  padding: 0.6rem;
+  border-bottom: 1px solid #718499;
+}
+p,
+td {
+  overflow-wrap: anywhere;
+}
+#hash {
+  font-family: monospace;
+}
+summary {
+  cursor: pointer;
+  font-weight: 700;
+}

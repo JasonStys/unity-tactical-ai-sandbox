@@ -19,7 +19,8 @@ The project deliberately emphasizes engineering systems over art assets. Its ori
 - Headless bot tournaments with JSON and CSV balance telemetry.
 - A `netstandard2.1` core usable from Unity and .NET 10 tools.
 - A Unity adapter compiled against CI stubs to continuously verify its C# contract.
-- Thirty-two dependency-free tests spanning examples, properties, regression budgets, replay tampering, and serialization.
+- Thirty-six dependency-free C# tests spanning examples, properties, regression budgets, replay inspection/tampering, and serialization.
+- Offline HTML replay inspection: scrub validated game states, compare the recorded next action with a separately recomputed bounded default-bot suggestion, inspect terrain visibility and download exact review JSON.
 - GitHub Actions on Linux and Windows, CodeQL, immutable action pins, minimum permissions, and Dependabot.
 
 ## System map
@@ -71,6 +72,14 @@ dotnet run --project src/TacticalAI.Headless/TacticalAI.Headless.csproj -c Relea
 ```
 
 ## Major features
+
+### Offline replay review for game designers
+
+After generating a tournament, run `dotnet run --project src/TacticalAI.Headless -c Release --no-build -- inspect-replay artifacts/simulation/sample-replay.json --out artifacts/review.html`, then open that new HTML file in a browser. No Unity installation or local web server is required. The exporter verifies every stored command/hash before exposing frames, refuses existing output files, and bounds input to 1 MiB, 128 commands, 16 avatars and a 32×32 board. Each frame shows coordinates, health, cooldowns, the SHA-256 state fingerprint and terrain-only line of sight. Avatar ordinals and a text table supplement team colors.
+
+The next recorded action is explicitly hindsight. Default-bot diagnostics use current default weights and show candidate counts/search exhaustion; they do not reconstruct the policy that made the recording. The viewer executes no game commands and has a restrictive content policy, no remote assets and no network requests. Files are local review artifacts, not signed evidence or a substitute for actual Unity PlayMode tests. This is a fictional turn-based game only.
+
+`npm ci --ignore-scripts`, `npx playwright install chromium firefox webkit`, then `npm run test:e2e` exercise actual CLI-generated files in Chromium, Firefox, WebKit and a mobile layout. Browser tooling is separate from the dependency-free C# runtime. Validation creates unique directories below `artifacts/` and preserves existing files.
 
 ### Navigation and spatial reasoning
 

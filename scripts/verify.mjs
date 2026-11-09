@@ -7,9 +7,10 @@ import { spawnSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
+import { randomUUID } from "node:crypto";
 
 const root = path.resolve(import.meta.dirname, "..");
-const artifacts = path.join(root, "artifacts");
+const artifacts = path.join(root, "artifacts", `verify-${randomUUID()}`);
 const generated = path.join(root, "docs", "reports", "generated");
 const simulation = path.join(artifacts, "simulation");
 
@@ -32,17 +33,18 @@ function compare(fileName) {
 }
 
 function main() {
-  fs.rmSync(artifacts, { recursive: true, force: true });
   fs.mkdirSync(artifacts, { recursive: true });
   run("dotnet", ["restore", "UnityTacticalAI.slnx", "--locked-mode", "--configfile", "NuGet.Config"]);
   run("dotnet", ["format", "UnityTacticalAI.slnx", "--no-restore", "--verify-no-changes"]);
   run("dotnet", ["build", "UnityTacticalAI.slnx", "-c", "Release", "--no-restore"]);
-  run("dotnet", ["run", "--project", "tests/TacticalAI.Tests/TacticalAI.Tests.csproj", "-c", "Release", "--no-build", "--", "--report", "artifacts/test-results.json"]);
-  run("dotnet", ["run", "--project", "src/TacticalAI.Headless/TacticalAI.Headless.csproj", "-c", "Release", "--no-build", "--", "simulate", "--matches", "500", "--seed", "1000", "--out", "artifacts/simulation"]);
+  run("dotnet", ["run", "--project", "tests/TacticalAI.Tests/TacticalAI.Tests.csproj", "-c", "Release", "--no-build", "--", "--report", path.join(artifacts, "test-results.json")]);
+  run("dotnet", ["run", "--project", "src/TacticalAI.Headless/TacticalAI.Headless.csproj", "-c", "Release", "--no-build", "--", "simulate", "--matches", "500", "--seed", "1000", "--out", simulation]);
   compare("balance-report.json");
   compare("balance-report.csv");
   compare("sample-replay.json");
-  run("dotnet", ["run", "--project", "src/TacticalAI.Headless/TacticalAI.Headless.csproj", "-c", "Release", "--no-build", "--", "replay", "artifacts/simulation/sample-replay.json"]);
+  run("dotnet", ["run", "--project", "src/TacticalAI.Headless/TacticalAI.Headless.csproj", "-c", "Release", "--no-build", "--", "replay", path.join(simulation,"sample-replay.json")]);
+  run("dotnet", ["run", "--project", "src/TacticalAI.Headless/TacticalAI.Headless.csproj", "-c", "Release", "--no-build", "--", "inspect-replay", path.join(simulation,"sample-replay.json"), "--out", path.join(artifacts,"review.html")]);
+  run("node", ["--check", "src/TacticalAI.Serialization/replay-viewer.js"]);
   run("dotnet", ["run", "--project", "src/TacticalAI.Headless/TacticalAI.Headless.csproj", "-c", "Release", "--no-build", "--", "validate-save", "scenarios/duel-v1.json"]);
   run("node", ["scripts/generate-code-index.mjs", "--check"]);
   run("node", ["scripts/verify-repository.mjs"]);

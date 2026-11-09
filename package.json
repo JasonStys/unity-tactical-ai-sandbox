@@ -2,11 +2,18 @@
   "name": "unity-tactical-ai-sandbox-tooling",
   "version": "1.0.0",
   "private": true,
-  "description": "Dependency-free repository validation scripts for the tactical AI sandbox.",
+  "description": "Portable C# game validation and offline replay browser checks.",
   "scripts": {
     "code-index": "node scripts/generate-code-index.mjs",
     "lint:repo": "node scripts/verify-repository.mjs",
-    "test": "node scripts/verify.mjs"
+    "test": "node scripts/verify.mjs",
+    "test:e2e": "node scripts/browser-review.mjs",
+    "format:viewer": "prettier --write src/TacticalAI.Serialization/replay-viewer.js src/TacticalAI.Serialization/replay-viewer.css"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@axe-core/playwright": "4.14.0",
+    "prettier": "3.9.10"
   },
   "engines": {
     "node": ">=24"
