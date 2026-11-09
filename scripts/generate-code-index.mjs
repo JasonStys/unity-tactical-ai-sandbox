@@ -18,7 +18,8 @@ function collectFiles(directory) {
 
   return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
     const absolute = path.join(directory, entry.name);
-    return entry.isDirectory() ? collectFiles(absolute) : entry.name.endsWith(".cs") ? [absolute] : [];
+    if (["bin", "obj", "node_modules"].includes(entry.name)) return [];
+    return entry.isDirectory() ? collectFiles(absolute) : /\.(cs|js|mjs)$/u.test(entry.name) ? [absolute] : [];
   });
 }
 
@@ -26,7 +27,7 @@ function declarationsFor(filePath) {
   const lines = fs.readFileSync(filePath, "utf8").split(/\r?\n/u);
   const declarationPattern = /^\s*(?:public|internal|private|protected)\s+(?:(?:static|sealed|abstract|readonly|partial|async|virtual|override)\s+)*(?:class|struct|enum|interface|record|void|[A-Z][\w<>,?\[\].]*)\s+([A-Za-z_]\w*)/u;
   return lines.flatMap((line, index) => {
-    const match = declarationPattern.exec(line);
+    const match = declarationPattern.exec(line) ?? /^\s*(?:function|const|let)\s+(\w+)/u.exec(line);
     return match ? [{ line: index + 1, symbol: match[1], signature: line.trim().replace(/\s*\{?\s*$/u, "") }] : [];
   });
 }

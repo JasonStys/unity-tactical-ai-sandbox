@@ -37,6 +37,16 @@ jobs:
           cache: npm
       - name: Run complete validation gate
         run: node scripts/verify.mjs
+      - name: Install locked browser tools
+        run: npm ci --ignore-scripts
+      - name: Audit all JavaScript dependencies
+        run: npm audit --audit-level=moderate
+      - name: Install browser engines
+        if: runner.os == 'Linux'
+        run: npx playwright install --with-deps chromium firefox webkit
+      - name: Exercise exported offline replay viewer
+        if: runner.os == 'Linux'
+        run: npm run test:e2e
       - name: Upload validation evidence
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2

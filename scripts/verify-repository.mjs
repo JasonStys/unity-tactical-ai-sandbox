@@ -16,7 +16,7 @@ function walk(directory) {
   }
 
   return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
-    if (["bin", "obj", ".git", "artifacts", "Library"].includes(entry.name)) {
+    if (["bin", "obj", ".git", "artifacts", "Library", "node_modules", "test-results", "playwright-report"].includes(entry.name)) {
       return [];
     }
 
@@ -56,7 +56,7 @@ function checkRequiredFiles() {
 }
 
 function checkSourceHeaders(files) {
-  for (const filePath of files.filter((value) => value.endsWith(".cs") || value.endsWith(".mjs"))) {
+  for (const filePath of files.filter((value) => /\.(cs|mjs|js|css)$/u.test(value))) {
     const relative = path.relative(root, filePath).replaceAll("\\", "/");
     const firstLines = fs.readFileSync(filePath, "utf8").split(/\r?\n/u).slice(0, 8).join("\n");
     if (!firstLines.includes("File:") || !firstLines.includes("Purpose:") || !firstLines.includes("Variables:")) {
@@ -79,7 +79,7 @@ function checkActions(files) {
 }
 
 function checkContent(files) {
-  const textFiles = files.filter((value) => /\.(?:cs|mjs|md|json|ya?ml|xml|props|csproj|slnx|txt)$/u.test(value));
+  const textFiles = files.filter((value) => /\.(?:cs|mjs|js|css|md|json|ya?ml|xml|props|csproj|slnx|txt)$/u.test(value));
   const forbiddenSecret = /(?:ghp_[A-Za-z0-9]{20,}|BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY)/u;
   const forbiddenReference = new RegExp(["Opt", "o 22"].join(""), "iu");
   for (const filePath of textFiles) {

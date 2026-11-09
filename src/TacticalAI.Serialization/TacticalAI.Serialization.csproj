@@ -4,6 +4,8 @@
     <RootNamespace>TacticalAI.Serialization</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <EmbeddedResource Include="replay-viewer.js" LogicalName="TacticalAI.Serialization.replay-viewer.js" />
+    <EmbeddedResource Include="replay-viewer.css" LogicalName="TacticalAI.Serialization.replay-viewer.css" />
     <ProjectReference Include="../TacticalAI.Core/TacticalAI.Core.csproj" />
   </ItemGroup>
 </Project>

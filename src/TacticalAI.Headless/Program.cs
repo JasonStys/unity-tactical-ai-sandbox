@@ -17,11 +17,12 @@ try
         {
             "simulate" => RunSimulation(engine, args[1..]),
             "replay" => ValidateReplay(engine, args[1..]),
+            "inspect-replay" => InspectReplay(engine, args[1..]),
             "validate-save" => ValidateSave(args[1..]),
             _ => PrintUsage(),
         };
 }
-catch (Exception exception) when (exception is ArgumentException or InvalidDataException or IOException or UnauthorizedAccessException)
+catch (Exception exception) when (exception is ArgumentException or InvalidDataException or IOException or UnauthorizedAccessException or System.Text.Json.JsonException)
 {
     Console.Error.WriteLine($"error: {exception.Message}");
     return 2;
@@ -109,9 +110,34 @@ static int ValidateSave(string[] arguments)
     return 0;
 }
 
+static int InspectReplay(TacticalEngine engine, string[] arguments)
+{
+    if (arguments.Length != 3 || arguments[1] != "--out")
+    {
+        throw new ArgumentException("inspect-replay requires FILE --out NEW.html");
+    }
+    using var input = File.OpenRead(arguments[0]);
+    byte[] buffer = new byte[(1024 * 1024) + 1];
+    int count = 0, received;
+    while (count < buffer.Length && (received = input.Read(buffer, count, buffer.Length - count)) > 0)
+    {
+        count += received;
+    }
+    if (count == buffer.Length)
+    {
+        throw new InvalidDataException("Replay input exceeds one MiB.");
+    }
+    ReplayInspection inspection = ReplayInspectionService.Create(JsonCodec.DeserializeReplay(System.Text.Encoding.UTF8.GetString(buffer, 0, count)), engine);
+    string html = ReplayInspectionService.RenderHtml(inspection);
+    using var output = new StreamWriter(new FileStream(arguments[2], FileMode.CreateNew, FileAccess.Write));
+    output.Write(html);
+    Console.WriteLine($"validatedFrames={inspection.Frames.Count} finalHash={inspection.FinalHash} fictionalGameOnly=True");
+    return 0;
+}
+
 static int PrintUsage()
 {
-    Console.Error.WriteLine("Usage: TacticalAI.Headless [demo | simulate --matches N --seed N --out PATH | replay FILE | validate-save FILE]");
+    Console.Error.WriteLine("Usage: TacticalAI.Headless [demo | simulate --matches N --seed N --out PATH | replay FILE | inspect-replay FILE --out NEW.html | validate-save FILE]");
     return 2;
 }
 
