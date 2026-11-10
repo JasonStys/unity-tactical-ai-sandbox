@@ -107,32 +107,32 @@ The next recorded action is explicitly hindsight. Default-bot diagnostics use cu
 
 ## Repository layout
 
-| Path | Purpose |
-| --- | --- |
-| `src/TacticalAI.Core/` | Portable grid, combat, AI, encounter, replay, and simulation domain. |
-| `src/TacticalAI.Serialization/` | Versioned JSON/CSV adapters isolated from the portable core. |
-| `src/TacticalAI.Headless/` | CLI for demos, tournaments, replay checks, and scenario validation. |
-| `src/TacticalAI.UnityBridge.Contract/` | CI-only Unity API stubs that compile-check adapter source. |
-| `unity/Assets/TacticalAI/Runtime/` | Thin Unity-facing ScriptableObject and MonoBehaviour adapters. |
-| `tests/TacticalAI.Tests/` | Dependency-free deterministic test runner and 32 tests. |
-| `scenarios/` | Human-readable authored scenario/save fixtures. |
-| `docs/` | Architecture, ADRs, operations, security, research, testing, and evidence. |
-| `scripts/` | Cross-platform validation and generated code-index tooling. |
-| `.github/` | CI, CodeQL, and dependency-update configuration. |
+| Path                                   | Purpose                                                                    |
+| -------------------------------------- | -------------------------------------------------------------------------- |
+| `src/TacticalAI.Core/`                 | Portable grid, combat, AI, encounter, replay, and simulation domain.       |
+| `src/TacticalAI.Serialization/`        | Versioned JSON/CSV adapters isolated from the portable core.               |
+| `src/TacticalAI.Headless/`             | CLI for demos, tournaments, replay checks, and scenario validation.        |
+| `src/TacticalAI.UnityBridge.Contract/` | CI-only Unity API stubs that compile-check adapter source.                 |
+| `unity/Assets/TacticalAI/Runtime/`     | Thin Unity-facing ScriptableObject and MonoBehaviour adapters.             |
+| `tests/TacticalAI.Tests/`              | Dependency-free deterministic test runner and 36 tests.                    |
+| `scenarios/`                           | Human-readable authored scenario/save fixtures.                            |
+| `docs/`                                | Architecture, ADRs, operations, security, research, testing, and evidence. |
+| `scripts/`                             | Cross-platform validation and generated code-index tooling.                |
+| `.github/`                             | CI, CodeQL, and dependency-update configuration.                           |
 
 A generated symbol-by-symbol file summary with exact declaration lines is in [`docs/CODE_INDEX.md`](docs/CODE_INDEX.md).
 
 ## Complexity and budgets
 
-| Operation | Complexity | Bound |
-| --- | --- | --- |
-| A* pathfinding | `O((V + E) log V)` time, `O(V)` space | Default 4,096 node expansions |
-| Binary-heap push/pop | `O(log n)` | Open set cannot exceed discovered cells |
-| Line of sight | `O(max(dx, dy))` | Map dimensions are at most 128 × 128 |
-| Influence map | `O(width × height × sources)` | Small tactical boards and explicit source list |
-| Utility selection | Candidate-dependent | Default 256 evaluations per decision |
-| Match simulation | Turn-dependent | Default 200 resolved commands |
-| Batch simulation | `O(matches × match work)` | Public API caps batches at 10,000 |
+| Operation            | Complexity                            | Bound                                          |
+| -------------------- | ------------------------------------- | ---------------------------------------------- |
+| A* pathfinding       | `O((V + E) log V)` time, `O(V)` space | Default 4,096 node expansions                  |
+| Binary-heap push/pop | `O(log n)`                            | Open set cannot exceed discovered cells        |
+| Line of sight        | `O(max(dx, dy))`                      | Map dimensions are at most 128 × 128           |
+| Influence map        | `O(width × height × sources)`         | Small tactical boards and explicit source list |
+| Utility selection    | Candidate-dependent                   | Default 256 evaluations per decision           |
+| Match simulation     | Turn-dependent                        | Default 200 resolved commands                  |
+| Batch simulation     | `O(matches × match work)`             | Public API caps batches at 10,000              |
 
 ## Evidence
 
@@ -158,3 +158,9 @@ A generated symbol-by-symbol file summary with exact declaration lines is in [`d
 ## License
 
 MIT. See [`LICENSE`](LICENSE).
+
+## Documentation editions
+
+Start with the [organized handbook](docs/handbook.md) for current usage, design, security and test guidance. Reviewed downloadable editions: [project-guide.docx](docs/reports/project-guide.docx).
+
+[Publication identities and source scope](docs/reports/publications.json) · [Documentation validation record](docs/reports/documentation-refresh-2026-11-09.md). Historical results retain their own tested revision and date.
