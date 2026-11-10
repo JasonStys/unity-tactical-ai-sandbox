@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "project": "unity-tactical-ai-sandbox",
+  "author": "Jason Stys",
+  "editionDate": "2026-11-09",
+  "sourceBaseline": "ea8c250a5112912d67461237788a9657e7eb705d",
+  "sourceUrl": "https://github.com/JasonStys/unity-tactical-ai-sandbox/tree/ea8c250a5112912d67461237788a9657e7eb705d",
+  "functionalEvidenceBaseline": "ea8c250a5112912d67461237788a9657e7eb705d",
+  "evidenceObservedAt": "2026-11-10T05:25:40.628667+00:00",
+  "workflowEvidence": [
+    {
+      "conclusion": "success",
+      "databaseId": 42719076793,
+      "event": "push",
+      "headSha": "ea8c250a5112912d67461237788a9657e7eb705d",
+      "name": "CodeQL",
+      "status": "completed",
+      "url": "https://github.com/JasonStys/unity-tactical-ai-sandbox/actions/runs/42719076793"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 42719076622,
+      "event": "push",
+      "headSha": "ea8c250a5112912d67461237788a9657e7eb705d",
+      "name": "CI",
+      "status": "completed",
+      "url": "https://github.com/JasonStys/unity-tactical-ai-sandbox/actions/runs/42719076622"
+    }
+  ],
+  "summary": "Inspect hash-validated game replays with timeline scrubbing, terrain/line-of-sight state and independent default-bot diagnostics in bounded offline HTML.",
+  "rationale": "Makes game behavior review portable while distinguishing recorded hindsight from independent replay decisions.",
+  "limitations": [
+    "Fictional turn-based game only; no real-world tracking, targeting or live control.",
+    "Default-bot diagnostics do not reconstruct the recording policy; the viewer does not rerun the engine or authenticate mutable files.",
+    "Inputs are bounded to 128 commands, 16 avatars, 32x32 static cells, 1 MiB import and 8 MiB JSON.",
+    "Unity stub compilation is not Unity Editor/PlayMode validation; the upgraded source is not a newly published native game build."
+  ],
+  "documents": [
+    {
+      "filename": "project-guide.docx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "bytes": 46726,
+      "sha256": "27f72a5a33fc32d8b32c33c729d77ca03346fb4d53b32a536b7268fc7470ec9b",
+      "sourceBaseline": "ea8c250a5112912d67461237788a9657e7eb705d",
+      "visualReview": {
+        "approved": true,
+        "method": "Every rendered page individually viewed at readable original resolution",
+        "pageCount": 7,
+        "renderedPageSha256": {
+          "page-1.png": "7fa067315624eb5c28be04d7d14b7d213cfbd314e82caa8da16d28f52bc76a45",
+          "page-2.png": "a958e7ef385c3ca60c78bafb96763d6a00015b91742ca26e6e4ba016924f81d8",
+          "page-3.png": "9811a51734d37450e4d080a4807da5254f791fca7da5602e2ab8f83a944ca2e9",
+          "page-4.png": "f9d2ce03af78a31c167d63feb7904aff400d61c043efd8278390b2da695ecc9f",
+          "page-5.png": "15987adfe1f2fb8f1de42148ddfded21afcbc99494228095933d2eea7f664713",
+          "page-6.png": "0200031108cad8c426f602c88723b81e9dc044f034464a901bc6edf5bcad46b8",
+          "page-7.png": "c78ce1ae7da44bd960bfa9d8a4e1777cb138ab2d40be3a666ecc81fe5b41f454"
+        }
+      }
+    }
+  ],
+  "scope": "Reviewed documentation editions of the cited source. Checksums identify bytes, not authorship. Historical measurements retain their own dates; integration CI must be checked separately."
+}
