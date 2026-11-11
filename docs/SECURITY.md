@@ -1,5 +1,7 @@
 # Security design
 
+The new [native Windows application](NATIVE_WINDOWS.md) retains a single trusted OS-owner boundary. It has no server/accounts and uses local fixed/removable disks only; UNC/device paths, mapped network roots and alternate data streams are rejected before content probes. Existing junction/reparse ancestors and hardlinked fixed mutable files are refused before initialization. Current/previous content is preserved on malformed input or external changes. Accepted asynchronous work retains the window and ownership lock through repeated Quit. These checks do not claim atomic protection against a malicious same-account concurrent writer, encryption, authenticated rollback, Unity sandboxing or signed package trust.
+
 ## Trust boundaries
 
 - Scenario, save, and replay JSON is untrusted input.

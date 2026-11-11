@@ -2,6 +2,8 @@
 
 By Jason Stys.
 
+Current source candidate: [native Windows designer guide](NATIVE_WINDOWS.md) and [observed validation](reports/native-designer-2026-11-11.md). The actual WinForms application adds custom scenario/terrain authoring, legal turns, full replay/frame inspection, retained projects/previous revisions and original seeded-balance exports. Source-candidate proof, hosted checks and a published/installed release are different stages; the historical editions below retain their declared baseline.
+
 Inspect hash-validated game replays with timeline scrubbing, terrain/line-of-sight state and independent default-bot diagnostics in bounded offline HTML.
 
 Makes game behavior review portable while distinguishing recorded hindsight from independent replay decisions.

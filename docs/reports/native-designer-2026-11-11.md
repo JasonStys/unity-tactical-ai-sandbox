@@ -1,0 +1,29 @@
+# Native designer validation
+
+By Jason Stys. This records observed source-candidate verification; exact clean-source hosted scans, package acceptance and owner-reviewed delivery remain separate pending gates. Historical Word and September validation editions retain their own source and denominators.
+
+## Real defect and original engine preservation
+
+A new independent three-avatar regression reproduced a real core inconsistency: legal movement ignores defeated avatars, but state construction rejected their overlapping positions. The regression failed with the old core, then passed when only **living** positions were required to be distinct. The existing living-overlap refusal still passes. Save/import/clone preserve the legally moved state. No schema, damage rule, bot scoring, encounter seed or replay hash definition changed.
+
+The dependency-free suite passes **48/48**, including 12 new designer cases. A fresh original **500-match** tournament at seed 1000 still produces **253 Blue wins, 238 Red wins and 9 draws**. JSON, CSV and the sample replay all match the original checked-in evidence byte-for-byte. Those observed aggregate game results are not generalized balance predictions.
+
+The complete original source gate passes, including locked package-free restore, formatting, build, all tests, replay/authored-save validation, exact source index and repository checks. All **12 original real browser journeys** pass locally across Chromium, Firefox, WebKit and mobile, including hostile identifiers, exact exports and keyboard/table behavior. The unchanged JavaScript dependency graph reports zero known vulnerabilities at the original moderate audit threshold. These local results are distinct from pending exact-source hosted analyses and clean native packaging.
+
+## Actual native user journeys
+
+The actual compiled WinForms EXE was shown in a fresh explicitly marked synthetic workspace, then reopened in another process. Ordinary real controls apply three original prepared inputs and a literal independent four-by-two board; edit terrain; reject malformed/out-of-bounds input and occupied-cell/historical commands; execute movement and a 34-point pulse attack from 100 to **66 HP**; navigate exact recording hashes; save/reopen the complete two-command history and selected frame; inspect the previous revision; import/export actual files; refuse output overwrites; and run/export five actual original seeded matches with consecutive CSV rows and complete outcome accounting.
+
+The native window remains visible and the exclusive profile lock stays held during a deliberately pending ordinary export file-choice operation. Repeated real Quit/Close does not finish until that operation is released. Each process exits normally. This is a retained UI-operation proof, not an arbitrary shutdown deadline or slow-disk cancellation guarantee.
+
+Real Windows NTFS fixtures cover all four mutable hardlink names, an ancestor junction, forbidden application-tree data, unknown directories, wrong markers, externally changed/corrupt current data, retained previous recovery, existing output bytes, invalid UTF-8 and oversized input. Outside sentinel bytes remain unchanged. These checks found and corrected a native error-handler gap: `InvalidDataException` needs explicit handling alongside `IOException`. A genuine valid-JSON/out-of-bounds UI case now verifies the visible window survives without losing accepted state.
+
+Actual screenshot review found clipped heading/summary/avatar text; row space, board padding and centered avatar labels were corrected and both full native processes rerun. A hidden first harness launch correctly failed its explicit actual-window visibility requirement; the accepted journey uses a visible own application window, not generic OS input.
+
+## Extracted self-contained candidate
+
+A real local Windows ZIP candidate contains **278** payload files before its embedded release manifest. Signed official runtime restore and actual published CoreLib/WinForms DLL comparisons bind .NET/WindowsDesktop **10.0.15**, built with isolated SDK **10.0.404**. The actual vendor ProductVersion includes its servicing/build identity; the canonical runtime version remains 10.0.15. Real vendor licenses/notices are included. Every extracted member is re-hashed, and the actual extracted EXE completes both unchanged native journeys. The local candidate is honestly labeled dirty; it does not stand in for a future exact clean-source archive.
+
+Thirteen actual source/workflow positive/negative controls protect clean SHA, patched runtime/build SDK, default bounded artifact retention, genuine second native process, vendor-byte checking, original Ubuntu scan identity and the separate Windows client extraction. The original full offline replay browser suite is retained in a matching nonroot official browser image, with ordinary host validation and actual missing-executable/font/focus/layout probes. No browser skip, ignored APT failure, local Docker operation, source exclusion, signing claim or released/installed status is inferred from local tests.
+
+At the initial hosted native source, the actual Windows native ZIP/two-launch job, both C# analyses, original Ubuntu/Windows source validation and headless container passed. The fresh isolated SDK in the browser image lacked the implicit `NETStandard.Library.Ref` 2.1.0 reference pack, so browser job 130678017008 failed at offline restore before browser assertions. That browser-only restore now uses the existing strict signed official Microsoft configuration to obtain the missing reference pack. The original source gate keeps its offline configuration; the portable target, dependency-free application code, complete browser suite and deadlines are unchanged. Fresh exact-head hosted browser completion remains required.

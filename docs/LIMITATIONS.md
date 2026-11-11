@@ -1,5 +1,7 @@
 # Limitations and future work
 
+The native designer is an unsigned self-contained **Windows x64** application over the actual original core. It does not run Unity Editor/PlayMode, install a service, provide accounts/multiplayer or support network filesystem profiles. Its own bounded JSON/scenario/history/cohort limits are in [NATIVE_WINDOWS.md](NATIVE_WINDOWS.md). Native CSV `commands` counts executed actions; original `turns` is the one-based game-state counter. Seeded balance uses generated encounters, not the custom editor board. Current source-candidate package proof does not imply a published, independently installed, signed or clean-machine-tested release.
+
 - The checked-in Unity directory is an integration slice, not a complete playable scene or art package.
 - CI compile-checks the Unity adapter but does not run Unity Edit Mode, Play Mode, rendering, input, or platform-build tests.
 - The AI performs one-ply scoring; it does not search opponent responses or coordinate multi-unit plans.

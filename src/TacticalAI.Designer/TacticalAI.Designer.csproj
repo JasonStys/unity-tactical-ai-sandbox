@@ -1,0 +1,21 @@
+<!-- File: TacticalAI.Designer.csproj; Purpose: Real self-contained Windows game-design application; Variables: exact runtime/product identity and actual model reference. -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <RuntimeFrameworkVersion>10.0.15</RuntimeFrameworkVersion>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>false</PublishSingleFile>
+    <PublishTrimmed>false</PublishTrimmed>
+    <Version>1.1.0</Version>
+    <AssemblyName>TacticalAiDesigner</AssemblyName>
+    <Product>Unity Tactical AI Designer</Product>
+    <Company>Jason Stys</Company>
+    <Copyright>Copyright Jason Stys</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../TacticalAI.Studio/TacticalAI.Studio.csproj" />
+  </ItemGroup>
+</Project>

@@ -45,6 +45,7 @@ function main() {
   run("dotnet", ["run", "--project", "src/TacticalAI.Headless/TacticalAI.Headless.csproj", "-c", "Release", "--no-build", "--", "replay", path.join(simulation,"sample-replay.json")]);
   run("dotnet", ["run", "--project", "src/TacticalAI.Headless/TacticalAI.Headless.csproj", "-c", "Release", "--no-build", "--", "inspect-replay", path.join(simulation,"sample-replay.json"), "--out", path.join(artifacts,"review.html")]);
   run("node", ["--check", "src/TacticalAI.Serialization/replay-viewer.js"]);
+  run("node", ["--test", "scripts/native-contract.test.mjs"]);
   run("dotnet", ["run", "--project", "src/TacticalAI.Headless/TacticalAI.Headless.csproj", "-c", "Release", "--no-build", "--", "validate-save", "scenarios/duel-v1.json"]);
   run("node", ["scripts/generate-code-index.mjs", "--check"]);
   run("node", ["scripts/verify-repository.mjs"]);

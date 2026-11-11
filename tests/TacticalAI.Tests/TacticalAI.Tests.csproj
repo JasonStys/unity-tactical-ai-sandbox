@@ -7,5 +7,6 @@
   <ItemGroup>
     <ProjectReference Include="../../src/TacticalAI.Core/TacticalAI.Core.csproj" />
     <ProjectReference Include="../../src/TacticalAI.Serialization/TacticalAI.Serialization.csproj" />
+    <ProjectReference Include="../../src/TacticalAI.Studio/TacticalAI.Studio.csproj" />
   </ItemGroup>
 </Project>
