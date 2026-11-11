@@ -68,7 +68,8 @@ jobs:
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with: {node-version: 24, package-manager-cache: false}
       - run: npm ci --ignore-scripts
-      - run: dotnet restore UnityTacticalAI.slnx --locked-mode --configfile NuGet.Config && dotnet build UnityTacticalAI.slnx -c Release --no-restore
+      - name: Restore signed official reference packs into the fresh browser SDK
+        run: dotnet restore UnityTacticalAI.slnx --locked-mode --configfile scripts/NuGet.Native.Config && dotnet build UnityTacticalAI.slnx -c Release --no-restore
       - name: Prove each actual locked engine and absent-executable refusal
         timeout-minutes: 3
         run: node scripts/check-browser-host.mjs chromium firefox webkit

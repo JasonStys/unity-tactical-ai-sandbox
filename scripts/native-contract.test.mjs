@@ -38,6 +38,7 @@ test("original Ubuntu CodeQL identity and actual additional Windows C# client ex
 test("all original source/tournament and browser assertions remain mandatory", () => {
   assert.ok(ci.includes("run: node scripts/verify.mjs") && ci.includes("os: [ubuntu-latest, windows-latest]"));
   assert.ok(ci.includes("options: --user 1001") && ci.includes("npm run test:e2e") && ci.includes("node scripts/check-browser-host.mjs chromium firefox webkit"));
+  assert.ok(ci.includes("dotnet restore UnityTacticalAI.slnx --locked-mode --configfile scripts/NuGet.Native.Config && dotnet build UnityTacticalAI.slnx -c Release --no-restore"));
   assert.doesNotMatch(ci, /install --with-deps|SKIP_VALIDATE_HOST_REQUIREMENTS|continue-on-error/);
   const original = read("scripts/verify.mjs");
   for (const file of ["balance-report.json", "balance-report.csv", "sample-replay.json"]) assert.ok(original.includes(`compare("${file}")`));
