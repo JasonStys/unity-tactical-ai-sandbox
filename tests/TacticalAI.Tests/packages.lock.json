@@ -10,6 +10,13 @@
         "dependencies": {
           "TacticalAI.Core": "[1.0.0, )"
         }
+      },
+      "tacticalai.studio": {
+        "type": "Project",
+        "dependencies": {
+          "TacticalAI.Core": "[1.0.0, )",
+          "TacticalAI.Serialization": "[1.0.0, )"
+        }
       }
     }
   }

@@ -29,7 +29,7 @@ jobs:
       - name: Set up .NET 10
         uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
         with:
-          dotnet-version: 10.0.401
+          dotnet-version: 10.0.404
       - name: Set up Node.js 24
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
@@ -41,12 +41,6 @@ jobs:
         run: npm ci --ignore-scripts
       - name: Audit all JavaScript dependencies
         run: npm audit --audit-level=moderate
-      - name: Install browser engines
-        if: runner.os == 'Linux'
-        run: npx playwright install --with-deps chromium firefox webkit
-      - name: Exercise exported offline replay viewer
-        if: runner.os == 'Linux'
-        run: npm run test:e2e
       - name: Upload validation evidence
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -54,6 +48,32 @@ jobs:
           name: validation-${{ matrix.os }}
           path: artifacts
           if-no-files-found: warn
+
+  replay-browser:
+    name: Original offline replay / three engines and mobile
+    runs-on: ubuntu-24.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.1-noble@sha256:2f05f8a734509a7b3f26a912639488ee08f58a7b292d14d62271bcff9038768f
+      options: --user 1001
+    timeout-minutes: 15
+    env:
+      DOTNET_INSTALL_DIR: ${{ github.workspace }}/artifacts/browser-dotnet
+      DOTNET_CLI_TELEMETRY_OPTOUT: '1'
+      DOTNET_NOLOGO: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with: {persist-credentials: false}
+      - uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68
+        with: {dotnet-version: 10.0.404}
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with: {node-version: 24, package-manager-cache: false}
+      - run: npm ci --ignore-scripts
+      - run: dotnet restore UnityTacticalAI.slnx --locked-mode --configfile NuGet.Config && dotnet build UnityTacticalAI.slnx -c Release --no-restore
+      - name: Prove each actual locked engine and absent-executable refusal
+        timeout-minutes: 3
+        run: node scripts/check-browser-host.mjs chromium firefox webkit
+      - name: Exercise all original real offline replay journeys
+        run: npm run test:e2e
 
   container:
     name: Non-root headless container

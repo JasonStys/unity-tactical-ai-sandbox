@@ -28,14 +28,38 @@ jobs:
       - name: Set up .NET 10
         uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
         with:
-          dotnet-version: 10.0.401
+          dotnet-version: 10.0.404
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@24c54180a607b1449ed407dd24f251e4e9147c8d # v4.38.3; coordinated version
+        uses: github/codeql-action/init@33d7b85da1a04171e211befe2c739303b9a4c066 # v4.39.3
         with:
           languages: csharp
+          build-mode: manual
+          queries: security-extended
       - name: Build analyzed solution
         run: |
           dotnet restore UnityTacticalAI.slnx --locked-mode --configfile NuGet.Config
           dotnet build UnityTacticalAI.slnx -c Release --no-restore
       - name: Analyze
-        uses: github/codeql-action/analyze@24c54180a607b1449ed407dd24f251e4e9147c8d # v4.38.3; coordinated version
+        uses: github/codeql-action/analyze@33d7b85da1a04171e211befe2c739303b9a4c066 # v4.39.3
+
+  analyze-designer:
+    name: Analyze actual Windows WinForms designer
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with: {persist-credentials: false}
+      - uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68
+        with: {dotnet-version: 10.0.404}
+      - uses: github/codeql-action/init@33d7b85da1a04171e211befe2c739303b9a4c066
+        with:
+          languages: csharp
+          build-mode: manual
+          queries: security-extended
+      - name: Compile the actual Windows client under the CodeQL tracer
+        run: |
+          dotnet restore src/TacticalAI.Designer/TacticalAI.Designer.csproj --locked-mode --configfile scripts/NuGet.Native.Config
+          dotnet build src/TacticalAI.Designer/TacticalAI.Designer.csproj -c Release --no-restore
+      - uses: github/codeql-action/analyze@33d7b85da1a04171e211befe2c739303b9a4c066
+        with:
+          category: /language:csharp/os:windows/designer

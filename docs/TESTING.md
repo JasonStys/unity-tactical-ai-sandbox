@@ -25,7 +25,7 @@ The test executable uses a small in-repository runner because the production sol
 1. locked offline restore;
 2. formatting verification;
 3. Release build with warnings as errors;
-4. all 32 tests and a JSON report;
+4. all 48 tests and a JSON report;
 5. a 500-match deterministic tournament;
 6. byte-for-byte comparison with checked-in JSON, CSV, and replay evidence;
 7. replay validation;
@@ -34,6 +34,8 @@ The test executable uses a small in-repository runner because the production sol
 10. repository policy validation.
 
 CI runs this gate on Ubuntu and Windows. CodeQL analyzes C# separately.
+
+The [native Windows guide](NATIVE_WINDOWS.md) describes the separate self-contained application package and actual extracted two-process GUI acceptance. Native tests drive the same real WinForms controls with explicit synthetic file choices, including actual NTFS aliases, stored revisions, input errors and pending-operation Quit. They do not replace the original tournament, offline replay browser tests or Unity adapter contract. A separate Windows manual-build CodeQL category extracts the complete native client; the original Ubuntu analysis identity remains.
 
 ## Unity-specific scope
 

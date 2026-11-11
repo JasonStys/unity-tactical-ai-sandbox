@@ -1,0 +1,10 @@
+<!-- File: TacticalAI.Studio.csproj; Purpose: Bounded designer workflow over the original portable game core; Variables: framework and references only. -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../TacticalAI.Core/TacticalAI.Core.csproj" />
+    <ProjectReference Include="../TacticalAI.Serialization/TacticalAI.Serialization.csproj" />
+  </ItemGroup>
+</Project>

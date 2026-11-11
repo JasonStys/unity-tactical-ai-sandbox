@@ -1,6 +1,6 @@
 {
   "name": "unity-tactical-ai-sandbox-tooling",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Portable C# game validation and offline replay browser checks.",
   "scripts": {

@@ -294,9 +294,9 @@ public sealed class TacticalState
             throw new ArgumentException("A match requires at least one unit from each team.", nameof(units));
         }
 
-        if (this.units.Select(unit => unit.Position).Distinct().Count() != this.units.Count)
+        if (this.units.Where(unit => unit.IsAlive).Select(unit => unit.Position).Distinct().Count() != this.units.Count(unit => unit.IsAlive))
         {
-            throw new ArgumentException("Units cannot share a starting cell.", nameof(units));
+            throw new ArgumentException("Living units cannot share a cell.", nameof(units));
         }
 
         if (this.units.Any(unit => !Map.Contains(unit.Position) || !Map[unit.Position].IsWalkable))

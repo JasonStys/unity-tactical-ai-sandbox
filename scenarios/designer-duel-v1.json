@@ -1,0 +1,23 @@
+{
+  "formatVersion": 1,
+  "state": {
+    "width": 4,
+    "height": 2,
+    "activeTeam": 0,
+    "turnNumber": 1,
+    "cells": [
+      {"isWalkable": true, "moveCost": 1, "cover": 0},
+      {"isWalkable": true, "moveCost": 1, "cover": 0},
+      {"isWalkable": true, "moveCost": 1, "cover": 0},
+      {"isWalkable": true, "moveCost": 1, "cover": 0},
+      {"isWalkable": true, "moveCost": 1, "cover": 0},
+      {"isWalkable": true, "moveCost": 1, "cover": 0},
+      {"isWalkable": true, "moveCost": 3, "cover": 20},
+      {"isWalkable": true, "moveCost": 1, "cover": 0}
+    ],
+    "units": [
+      {"id": "BlueA", "team": 0, "x": 0, "y": 0, "hitPoints": 100, "maxHitPoints": 100, "cooldowns": {}},
+      {"id": "RedA", "team": 1, "x": 3, "y": 0, "hitPoints": 100, "maxHitPoints": 100, "cooldowns": {}}
+    ]
+  }
+}
