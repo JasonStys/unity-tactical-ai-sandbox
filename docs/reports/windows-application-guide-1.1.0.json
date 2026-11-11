@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "repository": "unity-tactical-ai-sandbox",
+  "runtimeVersion": "1.1.0",
+  "runtimeSource": "092d2cd22380a9f38ab6b8e2440c7583218f7546",
+  "createdAt": "2026-11-11T19:20:19.861Z",
+  "author": "Jason Stys",
+  "document": "windows-application-guide-1.1.0.docx",
+  "sha256": "5001fc0834d2c35c91ab97ab1f1ce05386f8f55c18f8912d060ca7b913bb5bb5",
+  "screenshots": [
+    {
+      "file": "native-designer.png",
+      "sha256": "9bc8f88ede4a0036c0614c3bacdcd0ccbb8290bdf4a39b88a46e90a798cd040a",
+      "width": 1400,
+      "height": 940,
+      "caption": "The installed designer displays the authored board, exact avatar state and replay cursor. Recorded next actions are explicitly hindsight, rather than a bot forecast."
+    },
+    {
+      "file": "native-balance.png",
+      "sha256": "d6fad1547e5c4c056e682aa7334eabe9856d918e86f3f28a65e3c2611d3eb2e4",
+      "width": 1400,
+      "height": 940,
+      "caption": "Five original generated matches use consecutive seeds and a 24-action cap. The displayed result is one red win and four draws; it does not evaluate the edited board."
+    }
+  ],
+  "snippets": [
+    {
+      "file": "src/TacticalAI.Core/TacticalEngine.cs",
+      "first": 50,
+      "last": 74,
+      "sha256": "f17bc29589b779e7e32a33c77ddaedebf095d691d43b72cb7431a31341c23d22",
+      "url": "https://github.com/JasonStys/unity-tactical-ai-sandbox/blob/092d2cd22380a9f38ab6b8e2440c7583218f7546/src/TacticalAI.Core/TacticalEngine.cs#L50"
+    }
+  ],
+  "observedTests": [
+    {
+      "name": "Installed native controls",
+      "observed": "Both visible WinForms phases passed through actual ordinary handlers, custom scenarios, exact exports, current and previous saves, restart and held-export Quit.",
+      "result": "Passed"
+    },
+    {
+      "name": "Original domain evidence",
+      "observed": "All 48 original tests passed; 500 seeded reference results stayed byte-identical at 253 blue wins, 238 red wins and 9 draws.",
+      "result": "Passed"
+    },
+    {
+      "name": "Distribution and security",
+      "observed": "All five downloaded release files matched provider hashes; all 279 installed files stayed unchanged. All exact-source main workflows and two raw CodeQL categories passed before publication.",
+      "result": "Passed"
+    }
+  ],
+  "visualReview": {
+    "approved": true,
+    "reviewer": "audit_cyber",
+    "ooxmlSchema": "passed",
+    "pages": [
+      {
+        "page": 1,
+        "sha256": "5209183d1080ee5093bd518d19f9ad1eb66fdbc9a2927655882a1e48f29e9f02"
+      },
+      {
+        "page": 2,
+        "sha256": "5aa1d5cd6ce5c371da698f2c7fbea66d22caa92fb8287a2407d586b4a2f35ddf"
+      },
+      {
+        "page": 3,
+        "sha256": "f8fde8320b58f1349d2dc06868017aca38fdcdd42bb1e58ac323e156caa7dcd5"
+      },
+      {
+        "page": 4,
+        "sha256": "f2a7ef65644a3646b62e54ad1d896a3c26117491e3e464298942eb6fd4359831"
+      }
+    ],
+    "scope": "All four final pages individually inspected at original resolution; exact installed synthetic screenshots and immutable code; no ordinary user data."
+  }
+}
