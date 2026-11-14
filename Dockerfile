@@ -5,7 +5,7 @@ COPY . .
 RUN dotnet restore src/TacticalAI.Headless/TacticalAI.Headless.csproj --configfile NuGet.Config -p:TargetFramework=net10.0 --force-evaluate
 RUN dotnet publish src/TacticalAI.Headless/TacticalAI.Headless.csproj -c Release --no-restore --output /app -p:TargetFramework=net10.0
 
-FROM mcr.microsoft.com/dotnet/runtime:10.0 AS runtime
+FROM mcr.microsoft.com/dotnet/runtime:11.0 AS runtime
 WORKDIR /app
 COPY --from=build /app .
 USER $APP_UID
