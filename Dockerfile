@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:11.0 AS build
 WORKDIR /source
 COPY . .
 RUN dotnet restore src/TacticalAI.Headless/TacticalAI.Headless.csproj --configfile NuGet.Config -p:TargetFramework=net10.0 --force-evaluate
